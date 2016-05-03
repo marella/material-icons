@@ -1745,6 +1745,9 @@
 .mi-power-settings-new:before {
   content: "\e8ac";
 }
+.mi-pregnant-woman:before {
+  content: "\e91e";
+}
 .mi-present-to-all:before {
   content: "\e0df";
 }
