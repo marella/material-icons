@@ -1,6 +1,6 @@
 {
   "name": "material-icons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Material design icon font",
   "scripts": {
     "build": "node-sass --output-style=expanded iconfont/material-icons.scss iconfont/material-icons.css"
