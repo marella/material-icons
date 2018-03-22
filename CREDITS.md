@@ -1,1 +1,1 @@
-Inspired by [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+- Material design icons are created by [Google](https://github.com/google/material-design-icons)

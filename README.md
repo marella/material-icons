@@ -1,30 +1,39 @@
-# Material icons
-Material icons CSS toolkit
+# Material Icons
 
-https://materialicons.github.io
+Material design icon font
 
-# Installation
+## Installation
 
-### CSS
-```
-<!-- Material icons font hosted by Google -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<!-- Material icons CSS toolkit -->
-<link rel="stylesheet" href="css/material-icons.css">
-```
+Download the [latest release] or install using npm:
 
-### npm
 ```
 npm install material-icons
 ```
 
-### Bower
+## Setup
+
+### CSS
+
+```html
+<link rel="stylesheet" href="/path/to/material-icons/iconfont/material-icons.css">
 ```
-bower install material-icons
+
+### Sass & Webpack
+
+```scss
+$material-icons-font-path: '~material-icons/iconfont/';
+
+@import 'material-icons/iconfont/material-icons.scss';
 ```
-# Documentation
-Add the following code to display an icon
+
+## Usage
+
+```html
+<span class="material-icons">face</span>
 ```
-<i class="mi mi-face"></i>
-```
-To see list of classes available check https://materialicons.github.io
+
+## Available Icons
+
+See https://material.io/icons/
+
+[latest release]: https://github.com/marella/material-icons/releases
