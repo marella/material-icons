@@ -34,6 +34,7 @@ $material-icons-font-path: '~material-icons/iconfont/';
 
 ## Available Icons
 
-See https://material.io/icons/
+See [material design icons].
 
 [latest release]: https://github.com/marella/material-icons/releases
+[material design icons]: https://material.io/icons/
