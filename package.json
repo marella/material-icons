@@ -1,9 +1,13 @@
 {
   "name": "material-icons",
   "version": "0.2.0",
-  "description": "Material design icon font",
+  "description": "Material design icon font and CSS framework for self hosting the icons.",
   "scripts": {
-    "build": "node-sass --output-style=expanded iconfont/material-icons.scss iconfont/material-icons.css"
+    "build": "npm run build:init && npm run build:iconfont && npm run build:css && npm run build:css:min",
+    "build:init": "node scripts/codepoints.js",
+    "build:iconfont": "node-sass --output-style=expanded iconfont/material-icons.scss iconfont/material-icons.css",
+    "build:css": "node-sass --output-style=expanded css/material-icons.scss css/material-icons.css",
+    "build:css:min": "node-sass --output-style=compressed css/material-icons.scss css/material-icons.min.css"
   },
   "devDependencies": {
     "node-sass": "^4.7.2"
@@ -23,6 +27,8 @@
     "material-design",
     "iconfont",
     "icons",
-    "font"
+    "font",
+    "css",
+    "sass"
   ]
 }
