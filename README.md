@@ -16,24 +16,30 @@ npm install material-icons
 
 Font files are present in the `iconfont` directory and can be imported using CSS.
 
-Import the required CSS:
+Import CSS:
 
 ```html
 <link rel="stylesheet" href="/path/to/material-icons/iconfont/material-icons.css">
 ```
 
-or import the SCSS:
+To display an icon, use:
+
+```html
+<span class="material-icons">face</span>
+```
+
+To customize the build, import Sass:
+
+```scss
+@import 'material-icons/iconfont/material-icons.scss';
+```
+
+If you are using webpack sass-loader, use:
 
 ```scss
 $material-icons-font-path: '~material-icons/iconfont/';
 
-@import 'material-icons/iconfont/material-icons.scss';
-```
-
-To display an icon use:
-
-```html
-<span class="material-icons">face</span>
+@import '~material-icons/iconfont/material-icons.scss';
 ```
 
 Available Sass variables:
@@ -56,28 +62,32 @@ Available Sass mixins:
 
 ## CSS Classes (Optional)
 
-Alternatively you can use CSS classes to display an icon.
+Alternatively, you may use CSS classes to display an icon.
 
 > **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files.
 
-Import the required CSS:
+Import CSS:
 
 ```html
 <link rel="stylesheet" href="/path/to/material-icons/css/material-icons.min.css">
 ```
 
-or import the SCSS:
-
-```scss
-$material-icons-css-prefix: 'mi';
-
-@import 'material-icons/css/material-icons.scss';
-```
-
-To display an icon use:
+To display an icon, use:
 
 ```html
 <span class="mi mi-face"></span>
+```
+
+To customize the build, import Sass:
+
+```scss
+@import 'material-icons/css/material-icons.scss';
+```
+
+If you are using webpack sass-loader, use:
+
+```scss
+@import '~material-icons/css/material-icons.scss';
 ```
 
 Available Sass variables:
