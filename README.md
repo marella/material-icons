@@ -2,7 +2,7 @@
 
 Material design icon font and CSS framework for self hosting the icons.
 
-> **Note:** This package contains only the icon font and required CSS. So it is considerably small compared to the official [material-design-icons] package and easy to install.
+> **Note:** This package contains only the icon font and required CSS. So it is considerably small compared to the official `material-design-icons` package and easy to install.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install material-icons
 
 ## Usage
 
-Font files are present in the `iconfont` directory and can be imported using CSS.
+Font files are present in the [`iconfont`][iconfont] directory and can be imported using CSS.
 
 Import CSS:
 
@@ -28,7 +28,7 @@ To display an icon, use:
 <span class="material-icons">face</span>
 ```
 
-To customize the build, import Sass:
+To customize the build, import Sass instead of CSS:
 
 ```scss
 @import 'material-icons/iconfont/material-icons.scss';
@@ -78,7 +78,7 @@ To display an icon, use:
 <span class="mi mi-face"></span>
 ```
 
-To customize the build, import Sass:
+To customize the build, import Sass instead of CSS:
 
 ```scss
 @import 'material-icons/css/material-icons.scss';
@@ -108,8 +108,7 @@ Available Sass mixins:
 
 ## Available Icons
 
-See [material design icons].
+See <a href="https://material.io/icons/" target="_blank" rel="nofollow">material design icons</a>.
 
 [latest release]: https://github.com/marella/material-icons/releases
-[material design icons]: https://material.io/icons/
-[material-design-icons]: https://github.com/google/material-design-icons
+[iconfont]: https://github.com/marella/material-icons/tree/master/iconfont
