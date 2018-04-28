@@ -1,6 +1,6 @@
 {
   "name": "material-icons",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Material design icon font and CSS framework for self hosting the icons.",
   "scripts": {
     "build": "npm run build:init && npm run build:iconfont && npm run build:css && npm run build:css:min",
