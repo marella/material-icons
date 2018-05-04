@@ -2,6 +2,7 @@
   "name": "material-icons",
   "version": "0.2.2",
   "description": "Material design icon font and CSS framework for self hosting the icons.",
+  "browser": "iconfont/material-icons.css",
   "scripts": {
     "build": "npm run build:init && npm run build:iconfont && npm run build:css && npm run build:css:min",
     "build:init": "node scripts/codepoints.js",
