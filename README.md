@@ -64,7 +64,7 @@ Available Sass mixins:
 
 Alternatively, you may use CSS classes to display an icon.
 
-> **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files.
+> **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files. Also it might not work with some icons as Google hasn't updated codepoints for new icons.
 
 Import CSS:
 
