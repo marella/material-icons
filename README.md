@@ -2,7 +2,11 @@
 
 Material design icon font and CSS framework for self hosting the icons.
 
-> **Note:** This package contains only the icon font and required CSS. So it is considerably small compared to the official `material-design-icons` package and easy to install.
+> This package contains only the icon font and required CSS. So it is considerably smaller than the official `material-design-icons` package and easy to install.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Available Icons](#available-icons)
 
 ## Installation
 
@@ -117,7 +121,8 @@ Available Sass mixins:
 
 ## Available Icons
 
-See <a href="https://material.io/icons/" target="_blank" rel="nofollow">material design icons</a>.
+See [demo].
 
 [latest release]: https://github.com/marella/material-icons/releases
 [iconfont]: https://github.com/marella/material-icons/tree/master/iconfont
+[demo]: https://marella.github.io/material-icons/demo/

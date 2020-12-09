@@ -41,6 +41,11 @@ layout: default
     ;['', 'outlined', 'round', 'sharp', 'two-tone'].forEach((className) => {
       container.appendChild(renderIcons(icons, className))
     })
+    try {
+      anchors.add()
+    } catch (e) {
+      console.error(e)
+    }
   }
 
   const renderIcons = (icons, className='') => {
@@ -49,7 +54,9 @@ layout: default
 
     const heading = create('h2')
     heading.classList.add('demo-icons-heading')
-    heading.innerText = className ? className.replace('-', ' ') : 'filled'
+    const id = className ? className : 'filled'
+    heading.setAttribute('id', id)
+    heading.innerText = id.replace('-', ' ')
     div.appendChild(heading)
 
     className = className ? `material-icons-${className}` : 'material-icons'
@@ -71,7 +78,6 @@ layout: default
     const div = create('div')
     div.classList.add('demo-icon', 'tooltipped')
     div.setAttribute('aria-label', icon.outerHTML)
-    div.setAttribute('title', icon.outerHTML)
     div.appendChild(icon)
     div.appendChild(create('br'))
     div.appendChild(text)
