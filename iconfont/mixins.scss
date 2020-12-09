@@ -2,7 +2,12 @@
   $index: str-index($string, $search);
 
   @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + material-icons-str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    @return str-slice($string, 1, $index - 1) + $replace +
+      material-icons-str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
   }
 
   @return $string;
@@ -12,9 +17,29 @@
   @return unquote('"\\#{$codepoint}"');
 }
 
+@mixin material-icons-font-face(
+  $font-family: $material-icons-font-family,
+  $font-name: $material-icons-font-name,
+  $font-path: $material-icons-font-path
+) {
+  $font-file: $font-path + $font-name;
+
+  @font-face {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$font-file}.eot'); /* For IE6-8 */
+    src: local($font-family), local($font-name),
+      url('#{$font-file}.woff2') format('woff2'),
+      url('#{$font-file}.woff') format('woff'),
+      url('#{$font-file}.otf') format('opentype'),
+      url('#{$font-file}.ttf') format('truetype');
+  }
+}
+
 @mixin material-icons(
-  $font-size: $material-icons-font-size,
-  $font-family: $material-icons-font-family
+  $font-family: $material-icons-font-family,
+  $font-size: $material-icons-font-size
 ) {
   font-family: $font-family;
   font-weight: normal;

@@ -2,6 +2,10 @@
 
 fonts=(
     "Material Icons"
+    "Material Icons Outlined"
+    "Material Icons Round"
+    "Material Icons Sharp"
+    "Material Icons Two Tone"
 )
 
 # see https://www.w3schools.com/css/css3_fonts.asp
@@ -13,7 +17,7 @@ agents=(
     "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko"
     # eot - ie 6
     "Mozilla/4.0 (compatible; MSIE 6.01; Windows NT 6.0)"
-    # ttf - safari 3.1
+    # ttf/otf - safari 3.1
     "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_4; en-us) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1 Safari/525.13"
 )
 

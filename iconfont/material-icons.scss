@@ -1,17 +1,22 @@
 @import 'variables';
 @import 'mixins';
 
-@font-face {
-  font-family: $material-icons-font-family;
-  font-style: normal;
-  font-weight: 400;
-  src: url('#{$material-icons-font-file}.eot'); /* For IE6-8 */
-  src: local($material-icons-font-family), local($material-icons-font-name),
-    url('#{$material-icons-font-file}.woff2') format('woff2'),
-    url('#{$material-icons-font-file}.woff') format('woff'),
-    url('#{$material-icons-font-file}.ttf') format('truetype');
-}
+@include material-icons-font-face();
 
 .material-icons {
   @include material-icons();
+}
+
+@each $name in 'Outlined', 'Round', 'Sharp', 'Two Tone' {
+  $font-family: 'Material Icons #{$name}';
+  $font-name: material-icons-str-replace($name, ' ', '');
+  $font-name: 'MaterialIcons#{$font-name}-Regular';
+  $class-name: material-icons-str-replace(to-lower-case($name), ' ', '-');
+
+  @include material-icons-font-face($font-family, $font-name);
+
+  .material-icons-#{$class-name} {
+    @extend .material-icons;
+    font-family: $font-family;
+  }
 }

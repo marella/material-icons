@@ -25,7 +25,16 @@ Import CSS:
 To display an icon, use:
 
 ```html
-<span class="material-icons">face</span>
+<span class="material-icons">home</span>
+```
+
+To display outlined, round, sharp and two tone icons, use:
+
+```html
+<span class="material-icons-outlined">home</span>
+<span class="material-icons-round">home</span>
+<span class="material-icons-sharp">home</span>
+<span class="material-icons-two-tone">home</span>
 ```
 
 To customize the build, import Sass instead of CSS:
