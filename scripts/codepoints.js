@@ -13,17 +13,20 @@ const lines = fs
 const codepoints = {}
 let map = ''
 
-lines.forEach(line => {
+lines.forEach((line) => {
   const [name, codepoint] = line
     .trim()
     .split(' ')
-    .map(v => v.trim())
+    .map((v) => v.trim())
   if (!name || !codepoint) {
     return
   }
   codepoints[name] = codepoint
-  map += `  "${name}": ${codepoint},${EOL}`
 })
+
+for (const [name, codepoint] of Object.entries(codepoints)) {
+  map += `  "${name}": ${codepoint},${EOL}`
+}
 
 map = map.replace(/,\s*$/, '')
 const mapName = '$material-icons-codepoints'
