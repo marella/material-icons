@@ -11,7 +11,7 @@
     "build:css:min": "node-sass --output-style=compressed css/material-icons.scss css/material-icons.min.css"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.14.1"
   },
   "license": "Apache-2.0",
   "repository": {
