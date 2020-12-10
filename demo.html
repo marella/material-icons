@@ -6,10 +6,6 @@ layout: default
 
 <style type="text/css">
 
-  .demo-icons-heading {
-    text-transform: capitalize;
-  }
-
   .demo-icon {
     display: inline-block;
     width: 98px;
@@ -22,7 +18,11 @@ layout: default
     font-size: 48px;
   }
 
-  .demo-icon-text {
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+
+  .text-ellipsis {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -33,14 +33,30 @@ layout: default
 <div id="demo-container"></div>
 
 <script type="text/javascript">
+(() => {
+  const styles = ['', 'outlined', 'round', 'sharp', 'two-tone']
 
   const create = (tag) => document.createElement(tag)
 
+  const getId = (className) => className ? className : 'filled'
+
+  const getName = (className) => getId(className).replace('-', ' ')
+
   const render = (icons) => {
     const container = document.getElementById('demo-container')
-    ;['', 'outlined', 'round', 'sharp', 'two-tone'].forEach((className) => {
+
+    const heading = create('h1')
+    heading.innerText = 'Available Icons'
+    container.appendChild(heading)
+    const nav = create('ul')
+    nav.classList.add('text-capitalize')
+    container.appendChild(nav)
+
+    styles.forEach((className) => {
+      nav.appendChild(renderNavLink('#' + getId(className), getName(className)))
       container.appendChild(renderIcons(icons, className))
     })
+
     try {
       anchors.add()
     } catch (e) {
@@ -53,10 +69,9 @@ layout: default
     div.classList.add('demo-icons')
 
     const heading = create('h2')
-    heading.classList.add('demo-icons-heading')
-    const id = className ? className : 'filled'
-    heading.setAttribute('id', id)
-    heading.innerText = id.replace('-', ' ')
+    heading.classList.add('text-capitalize')
+    heading.setAttribute('id', getId(className))
+    heading.innerText = getName(className)
     div.appendChild(heading)
 
     className = className ? `material-icons-${className}` : 'material-icons'
@@ -72,7 +87,7 @@ layout: default
     icon.innerText = name
 
     const text = create('div')
-    text.classList.add('demo-icon-text')
+    text.classList.add('text-ellipsis')
     text.innerText = name
 
     const div = create('div')
@@ -84,10 +99,19 @@ layout: default
     return div
   }
 
+  const renderNavLink = (href, text) => {
+    const li = create('li')
+    const a = create('a')
+    a.setAttribute('href', href)
+    a.innerText = text
+    li.appendChild(a)
+    return li
+  }
+
   const codepoints = "{{ "/iconfont/codepoints.json?v=" | append: site.github.build_revision | relative_url }}"
 
   fetch(codepoints).then((res) => res.json()).then(render)
-
+})()
 </script>
 
 <style type="text/css">
