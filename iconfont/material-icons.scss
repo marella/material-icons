@@ -13,7 +13,7 @@
   $font-name: 'MaterialIcons#{$font-name}-Regular';
   $class-name: material-icons-str-replace(to-lower-case($name), ' ', '-');
 
-  @include material-icons-font-face($font-family, $font-name);
+  @include material-icons-font-face($font-family, $font-name, true);
 
   .material-icons-#{$class-name} {
     @extend .material-icons;

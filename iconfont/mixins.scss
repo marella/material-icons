@@ -20,6 +20,7 @@
 @mixin material-icons-font-face(
   $font-family: $material-icons-font-family,
   $font-name: $material-icons-font-name,
+  $otf: false,
   $font-path: $material-icons-font-path
 ) {
   $font-file: $font-path + $font-name;
@@ -32,8 +33,11 @@
     src: local($font-family), local($font-name),
       url('#{$font-file}.woff2') format('woff2'),
       url('#{$font-file}.woff') format('woff'),
-      url('#{$font-file}.otf') format('opentype'),
-      url('#{$font-file}.ttf') format('truetype');
+      if(
+        $otf,
+        url('#{$font-file}.otf') format('opentype'),
+        url('#{$font-file}.ttf') format('truetype')
+      );
   }
 }
 
