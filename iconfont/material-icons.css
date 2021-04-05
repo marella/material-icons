@@ -2,6 +2,7 @@
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
+  font-display: block;
   src: url("MaterialIcons-Regular.eot");
   /* For IE6-8 */
   src: local("Material Icons"), local("MaterialIcons-Regular"), url("MaterialIcons-Regular.woff2") format("woff2"), url("MaterialIcons-Regular.woff") format("woff"), url("MaterialIcons-Regular.ttf") format("truetype");
@@ -33,6 +34,7 @@
   font-family: "Material Icons Outlined";
   font-style: normal;
   font-weight: 400;
+  font-display: block;
   src: url("MaterialIconsOutlined-Regular.eot");
   /* For IE6-8 */
   src: local("Material Icons Outlined"), local("MaterialIconsOutlined-Regular"), url("MaterialIconsOutlined-Regular.woff2") format("woff2"), url("MaterialIconsOutlined-Regular.woff") format("woff"), url("MaterialIconsOutlined-Regular.otf") format("opentype");
@@ -46,6 +48,7 @@
   font-family: "Material Icons Round";
   font-style: normal;
   font-weight: 400;
+  font-display: block;
   src: url("MaterialIconsRound-Regular.eot");
   /* For IE6-8 */
   src: local("Material Icons Round"), local("MaterialIconsRound-Regular"), url("MaterialIconsRound-Regular.woff2") format("woff2"), url("MaterialIconsRound-Regular.woff") format("woff"), url("MaterialIconsRound-Regular.otf") format("opentype");
@@ -59,6 +62,7 @@
   font-family: "Material Icons Sharp";
   font-style: normal;
   font-weight: 400;
+  font-display: block;
   src: url("MaterialIconsSharp-Regular.eot");
   /* For IE6-8 */
   src: local("Material Icons Sharp"), local("MaterialIconsSharp-Regular"), url("MaterialIconsSharp-Regular.woff2") format("woff2"), url("MaterialIconsSharp-Regular.woff") format("woff"), url("MaterialIconsSharp-Regular.otf") format("opentype");
@@ -72,6 +76,7 @@
   font-family: "Material Icons Two Tone";
   font-style: normal;
   font-weight: 400;
+  font-display: block;
   src: url("MaterialIconsTwoTone-Regular.eot");
   /* For IE6-8 */
   src: local("Material Icons Two Tone"), local("MaterialIconsTwoTone-Regular"), url("MaterialIconsTwoTone-Regular.woff2") format("woff2"), url("MaterialIconsTwoTone-Regular.woff") format("woff"), url("MaterialIconsTwoTone-Regular.otf") format("opentype");
