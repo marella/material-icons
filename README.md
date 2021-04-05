@@ -63,6 +63,7 @@ $material-icons-font-path: '' !default;
 $material-icons-font-name: 'MaterialIcons-Regular' !default;
 $material-icons-font-size: 24px !default;
 $material-icons-font-family: 'Material Icons' !default;
+$material-icons-font-display: block !default;
 ```
 
 Available Sass mixins:
