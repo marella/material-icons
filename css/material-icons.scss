@@ -9,6 +9,16 @@ $material-icons-css-replace: '-' !default;
   @include material-icons();
 }
 
+@each $name in 'Outlined', 'Round', 'Sharp', 'Two Tone' {
+  $font-family: 'Material Icons #{$name}';
+  $class-name: material-icons-str-replace(to-lower-case($name), ' ', '-');
+
+  .#{$material-icons-css-prefix}-#{$class-name} {
+    @extend #{'.' + $material-icons-css-prefix};
+    font-family: $font-family;
+  }
+}
+
 @each $name, $codepoint in $material-icons-codepoints {
   $class-name: material-icons-str-replace(
     $name,

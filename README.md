@@ -89,7 +89,16 @@ Import CSS:
 To display an icon, use:
 
 ```html
-<span class="mi mi-face"></span>
+<span class="mi mi-home"></span>
+```
+
+To display outlined, round, sharp and two tone icons, use:
+
+```html
+<span class="mi-outlined mi-home"></span>
+<span class="mi-round mi-home"></span>
+<span class="mi-sharp mi-home"></span>
+<span class="mi-two-tone mi-home"></span>
 ```
 
 To customize the build, import Sass instead of CSS:
@@ -115,8 +124,8 @@ $material-icons-css-replace: '-' !default; /* To replace '_' with '-' in CSS cla
 Available Sass mixins:
 
 ```scss
-.mi-face {
-  @include material-icon('face');
+.mi-home {
+  @include material-icon('home');
 }
 ```
 

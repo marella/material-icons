@@ -1,4 +1,4 @@
-.mi {
+.mi, .mi-outlined, .mi-round, .mi-sharp, .mi-two-tone {
   font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
@@ -18,6 +18,22 @@
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.mi-outlined {
+  font-family: "Material Icons Outlined";
+}
+
+.mi-round {
+  font-family: "Material Icons Round";
+}
+
+.mi-sharp {
+  font-family: "Material Icons Sharp";
+}
+
+.mi-two-tone {
+  font-family: "Material Icons Two Tone";
 }
 
 .mi-360:before {
