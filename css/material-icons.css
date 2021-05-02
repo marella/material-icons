@@ -632,6 +632,10 @@
   content: "\e149";
 }
 
+.mi-area-chart:before {
+  content: "\-1";
+}
+
 .mi-arrow-back:before {
   content: "\e5c4";
 }
@@ -1788,6 +1792,10 @@
   content: "\e3c6";
 }
 
+.mi-cruelty-free:before {
+  content: "\-1";
+}
+
 .mi-dangerous:before {
   content: "\e99a";
 }
@@ -1802,6 +1810,10 @@
 
 .mi-dashboard-customize:before {
   content: "\e99b";
+}
+
+.mi-data-exploration:before {
+  content: "\-1";
 }
 
 .mi-data-saver-off:before {
@@ -2008,6 +2020,10 @@
   content: "\f230";
 }
 
+.mi-disabled-visible:before {
+  content: "\-1";
+}
+
 .mi-disc-full:before {
   content: "\e610";
 }
@@ -2170,6 +2186,10 @@
 
 .mi-drive-file-move-outline:before {
   content: "\e9a1";
+}
+
+.mi-drive-file-move-rtl:before {
+  content: "\-1";
 }
 
 .mi-drive-file-rename-outline:before {
@@ -3446,6 +3466,10 @@
 
 .mi-inbox:before {
   content: "\e156";
+}
+
+.mi-incomplete-circle:before {
+  content: "\-1";
 }
 
 .mi-indeterminate-check-box:before {
@@ -6820,6 +6844,10 @@
   content: "\e426";
 }
 
+.mi-tips-and-updates:before {
+  content: "\-1";
+}
+
 .mi-title:before {
   content: "\e264";
 }
@@ -7266,6 +7294,10 @@
 
 .mi-water-damage:before {
   content: "\f203";
+}
+
+.mi-water-drop:before {
+  content: "\-1";
 }
 
 .mi-waterfall-chart:before {
