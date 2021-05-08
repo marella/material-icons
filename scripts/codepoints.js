@@ -1,32 +1,17 @@
 const fs = require('fs')
 const path = require('path')
 const { EOL } = require('os')
-const got = require('got')
+const opentype = require('opentype.js')
 
-const CODEPOINTS_URL = 'https://fonts.google.com/metadata/icons'
-const CODEPOINTS_JSON = path.resolve(__dirname + '/../iconfont/codepoints.json')
-const CODEPOINTS_SCSS = path.resolve(__dirname + '/../iconfont/codepoints.scss')
+const ICONFONT_DIR = path.resolve(__dirname + '/../iconfont')
+const CODEPOINTS_JSON = path.resolve(ICONFONT_DIR + '/codepoints.json')
+const CODEPOINTS_SCSS = path.resolve(ICONFONT_DIR + '/codepoints.scss')
 
-const main = async () => {
-  const existingCodepoints = getExistingCodepoints()
-  const latestCodepoints = await getLatestCodepoints()
-  // merge both to avoid deleting existing codepoints
-  let codepoints = { ...existingCodepoints, ...latestCodepoints }
-  codepoints = Object.fromEntries(Object.entries(codepoints).sort()) // sort by name
-  console.log(
-    `Got ${
-      Object.keys(existingCodepoints).length
-    } codepoints from ${CODEPOINTS_JSON}`
-  )
-  console.log(
-    `Got ${
-      Object.keys(latestCodepoints).length
-    } codepoints from ${CODEPOINTS_URL}`
-  )
-  console.log(`Got ${Object.keys(codepoints).length} codepoints from both`)
-  const sassMap = createSassMap(codepoints)
-  fs.writeFileSync(CODEPOINTS_JSON, JSON.stringify(codepoints, null, 2))
-  fs.writeFileSync(CODEPOINTS_SCSS, sassMap)
+const main = () => {
+  const existing = getExistingCodepoints()
+  const latest = getLatestCodepoints()
+  logChanges(existing, latest)
+  save(latest)
 }
 
 const getExistingCodepoints = () => {
@@ -34,18 +19,52 @@ const getExistingCodepoints = () => {
   return JSON.parse(json)
 }
 
-const getLatestCodepoints = async () => {
-  const { body } = await got(CODEPOINTS_URL)
-  const json = body.substring(body.indexOf('\n')) // remove first line
-  const { icons } = JSON.parse(json)
+const getLatestCodepoints = () => {
   const codepoints = {}
-  icons.forEach(({ name, codepoint }) => {
-    if (!name || !codepoint) {
-      return
-    }
-    codepoints[name] = codepoint.toString(16)
+  const styles = ['', 'Outlined', 'Round', 'Sharp', 'TwoTone']
+  styles.reverse() // last processed font overwrites previous ones
+  styles.forEach((style) => {
+    const file = `${ICONFONT_DIR}/MaterialIcons${style}-Regular.woff`
+    processFont(file, codepoints)
   })
-  return codepoints
+  return sortMap(codepoints)
+}
+
+const processFont = (file, codepoints) => {
+  const font = opentype.loadSync(path.resolve(file))
+  const glyphToCodepoints = {}
+  const { glyphIndexMap } = font.tables.cmap
+  for (const [codepoint, glyph] of Object.entries(glyphIndexMap)) {
+    glyphToCodepoints[glyph] = parseInt(codepoint)
+  }
+  font.tables.gsub.lookups.forEach(({ lookupType, subtables }) => {
+    if (lookupType === 4) {
+      subtables.forEach(({ coverage: { ranges }, ligatureSets }) => {
+        const prefixes = []
+        ranges.forEach(({ start, end }) => {
+          for (let i = start; i <= end; i++) {
+            prefixes.push(i)
+          }
+        })
+        ligatureSets.forEach((ligatureSet, i) => {
+          ligatureSet.forEach(({ ligGlyph, components }) => {
+            const ligature = [prefixes[i], ...components]
+              .map((v) => String.fromCharCode(glyphToCodepoints[v]))
+              .join('')
+            const codepoint = glyphToCodepoints[ligGlyph]
+            codepoints[ligature] = codepoint.toString(16)
+          })
+        })
+      })
+    }
+  })
+}
+
+const save = (codepoints) => {
+  codepoints = sortMap(codepoints)
+  const sassMap = createSassMap(codepoints)
+  fs.writeFileSync(CODEPOINTS_JSON, JSON.stringify(codepoints, null, 2))
+  fs.writeFileSync(CODEPOINTS_SCSS, sassMap)
 }
 
 const createSassMap = (codepoints) => {
@@ -62,6 +81,28 @@ ${map}
 ), ${mapName});
 `
   return map
+}
+
+const logChanges = (existing, latest) => {
+  Object.keys(existing).forEach((name) => {
+    if (!latest[name]) {
+      console.error(`Removed "${name}"`)
+    }
+  })
+  Object.keys(existing).forEach((name) => {
+    if (latest[name] && latest[name] !== existing[name]) {
+      console.warn(`Changed "${name}"`)
+    }
+  })
+  Object.keys(latest).forEach((name) => {
+    if (!existing[name]) {
+      console.info(`Added "${name}"`)
+    }
+  })
+}
+
+const sortMap = (map) => {
+  return Object.fromEntries(Object.entries(map).sort())
 }
 
 main()
