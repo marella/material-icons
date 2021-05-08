@@ -76,9 +76,9 @@ Available Sass mixins:
 
 ## CSS Classes (Optional)
 
-Alternatively, you may use CSS classes to display an icon.
+Alternatively, you may use CSS classes `<span class="material-icons mi-home"></span>` instead of ligatures `<span class="material-icons">home</span>` to display an icon.
 
-> **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files. Also it might not work with some icons as Google hasn't updated codepoints for new icons.
+> **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files.
 
 Import CSS:
 
@@ -89,16 +89,16 @@ Import CSS:
 To display an icon, use:
 
 ```html
-<span class="mi mi-home"></span>
+<span class="material-icons mi-home"></span>
 ```
 
 To display outlined, round, sharp and two tone icons, use:
 
 ```html
-<span class="mi-outlined mi-home"></span>
-<span class="mi-round mi-home"></span>
-<span class="mi-sharp mi-home"></span>
-<span class="mi-two-tone mi-home"></span>
+<span class="material-icons-outlined mi-home"></span>
+<span class="material-icons-round mi-home"></span>
+<span class="material-icons-sharp mi-home"></span>
+<span class="material-icons-two-tone mi-home"></span>
 ```
 
 To customize the build, import Sass instead of CSS:
