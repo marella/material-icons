@@ -433,7 +433,7 @@
 }
 
 .mi-ads-click:before {
-  content: "\-1";
+  content: "\e762";
 }
 
 .mi-agriculture:before {
@@ -633,7 +633,7 @@
 }
 
 .mi-area-chart:before {
-  content: "\-1";
+  content: "\e770";
 }
 
 .mi-arrow-back:before {
@@ -837,7 +837,7 @@
 }
 
 .mi-back-hand:before {
-  content: "\-1";
+  content: "\e764";
 }
 
 .mi-backpack:before {
@@ -888,8 +888,56 @@
   content: "\ea41";
 }
 
+.mi-battery-20:before {
+  content: "\f09c";
+}
+
+.mi-battery-30:before {
+  content: "\f09d";
+}
+
+.mi-battery-50:before {
+  content: "\f09e";
+}
+
+.mi-battery-60:before {
+  content: "\f09f";
+}
+
+.mi-battery-80:before {
+  content: "\f0a0";
+}
+
+.mi-battery-90:before {
+  content: "\f0a1";
+}
+
 .mi-battery-alert:before {
   content: "\e19c";
+}
+
+.mi-battery-charging-20:before {
+  content: "\f0a2";
+}
+
+.mi-battery-charging-30:before {
+  content: "\f0a3";
+}
+
+.mi-battery-charging-50:before {
+  content: "\f0a4";
+}
+
+.mi-battery-charging-60:before {
+  content: "\f0a5";
+}
+
+.mi-battery-charging-80:before {
+  content: "\f0a6";
+}
+
+.mi-battery-charging-90:before {
+  content: "\f0a7";
 }
 
 .mi-battery-charging-full:before {
@@ -1449,11 +1497,11 @@
 }
 
 .mi-checklist:before {
-  content: "\-1";
+  content: "\e6b1";
 }
 
 .mi-checklist-rtl:before {
-  content: "\-1";
+  content: "\e6b3";
 }
 
 .mi-checkroom:before {
@@ -1613,7 +1661,7 @@
 }
 
 .mi-compost:before {
-  content: "\-1";
+  content: "\e761";
 }
 
 .mi-compress:before {
@@ -1694,6 +1742,10 @@
 
 .mi-control-point-duplicate:before {
   content: "\e3bb";
+}
+
+.mi-copy:before {
+  content: "\f08a";
 }
 
 .mi-copy-all:before {
@@ -1793,7 +1845,11 @@
 }
 
 .mi-cruelty-free:before {
-  content: "\-1";
+  content: "\e799";
+}
+
+.mi-cut:before {
+  content: "\f08b";
 }
 
 .mi-dangerous:before {
@@ -1813,7 +1869,7 @@
 }
 
 .mi-data-exploration:before {
-  content: "\-1";
+  content: "\e76f";
 }
 
 .mi-data-saver-off:before {
@@ -2021,7 +2077,7 @@
 }
 
 .mi-disabled-visible:before {
-  content: "\-1";
+  content: "\e76e";
 }
 
 .mi-disc-full:before {
@@ -2173,7 +2229,7 @@
 }
 
 .mi-draw:before {
-  content: "\-1";
+  content: "\e746";
 }
 
 .mi-drive-eta:before {
@@ -2189,7 +2245,7 @@
 }
 
 .mi-drive-file-move-rtl:before {
-  content: "\-1";
+  content: "\e76d";
 }
 
 .mi-drive-file-rename-outline:before {
@@ -2261,7 +2317,7 @@
 }
 
 .mi-edit-calendar:before {
-  content: "\-1";
+  content: "\e742";
 }
 
 .mi-edit-location:before {
@@ -2273,7 +2329,7 @@
 }
 
 .mi-edit-note:before {
-  content: "\-1";
+  content: "\e745";
 }
 
 .mi-edit-notifications:before {
@@ -2510,6 +2566,10 @@
 
 .mi-face-retouching-off:before {
   content: "\f007";
+}
+
+.mi-face-unlock:before {
+  content: "\f008";
 }
 
 .mi-facebook:before {
@@ -2993,11 +3053,11 @@
 }
 
 .mi-free-cancellation:before {
-  content: "\-1";
+  content: "\e748";
 }
 
 .mi-front-hand:before {
-  content: "\-1";
+  content: "\e769";
 }
 
 .mi-fullscreen:before {
@@ -3037,7 +3097,7 @@
 }
 
 .mi-generating-tokens:before {
-  content: "\-1";
+  content: "\e749";
 }
 
 .mi-gesture:before {
@@ -3145,7 +3205,7 @@
 }
 
 .mi-group-off:before {
-  content: "\-1";
+  content: "\e747";
 }
 
 .mi-group-work:before {
@@ -3369,7 +3429,7 @@
 }
 
 .mi-hotel-class:before {
-  content: "\-1";
+  content: "\e743";
 }
 
 .mi-hourglass-bottom:before {
@@ -3469,7 +3529,7 @@
 }
 
 .mi-incomplete-circle:before {
-  content: "\-1";
+  content: "\e79b";
 }
 
 .mi-indeterminate-check-box:before {
@@ -4469,7 +4529,7 @@
 }
 
 .mi-new-label:before {
-  content: "\-1";
+  content: "\e609";
 }
 
 .mi-new-releases:before {
@@ -4820,6 +4880,10 @@
   content: "\f042";
 }
 
+.mi-paste:before {
+  content: "\f098";
+}
+
 .mi-pattern:before {
   content: "\f043";
 }
@@ -4965,7 +5029,7 @@
 }
 
 .mi-personal-injury:before {
-  content: "\-1";
+  content: "\e6da";
 }
 
 .mi-personal-video:before {
@@ -5137,11 +5201,11 @@
 }
 
 .mi-pin-end:before {
-  content: "\-1";
+  content: "\e767";
 }
 
 .mi-pin-invoke:before {
-  content: "\-1";
+  content: "\e763";
 }
 
 .mi-pivot-table-chart:before {
@@ -5301,7 +5365,7 @@
 }
 
 .mi-private-connectivity:before {
-  content: "\-1";
+  content: "\e744";
 }
 
 .mi-production-quantity-limits:before {
@@ -5437,7 +5501,7 @@
 }
 
 .mi-real-estate-agent:before {
-  content: "\-1";
+  content: "\e73a";
 }
 
 .mi-receipt:before {
@@ -5461,7 +5525,7 @@
 }
 
 .mi-recycling:before {
-  content: "\-1";
+  content: "\e760";
 }
 
 .mi-redeem:before {
@@ -5992,6 +6056,10 @@
   content: "\e80d";
 }
 
+.mi-share-arrival-time:before {
+  content: "\e524";
+}
+
 .mi-share-location:before {
   content: "\f05f";
 }
@@ -6060,6 +6128,18 @@
   content: "\f0a8";
 }
 
+.mi-signal-cellular-1-bar:before {
+  content: "\f0a9";
+}
+
+.mi-signal-cellular-2-bar:before {
+  content: "\f0aa";
+}
+
+.mi-signal-cellular-3-bar:before {
+  content: "\f0ab";
+}
+
 .mi-signal-cellular-4-bar:before {
   content: "\e1c8";
 }
@@ -6070,6 +6150,18 @@
 
 .mi-signal-cellular-connected-no-internet-0-bar:before {
   content: "\f0ac";
+}
+
+.mi-signal-cellular-connected-no-internet-1-bar:before {
+  content: "\f0ad";
+}
+
+.mi-signal-cellular-connected-no-internet-2-bar:before {
+  content: "\f0ae";
+}
+
+.mi-signal-cellular-connected-no-internet-3-bar:before {
+  content: "\f0af";
 }
 
 .mi-signal-cellular-connected-no-internet-4-bar:before {
@@ -6096,6 +6188,30 @@
   content: "\f0b0";
 }
 
+.mi-signal-wifi-1-bar:before {
+  content: "\f0b1";
+}
+
+.mi-signal-wifi-1-bar-lock:before {
+  content: "\f0b2";
+}
+
+.mi-signal-wifi-2-bar:before {
+  content: "\f0b3";
+}
+
+.mi-signal-wifi-2-bar-lock:before {
+  content: "\f0b4";
+}
+
+.mi-signal-wifi-3-bar:before {
+  content: "\f0b5";
+}
+
+.mi-signal-wifi-3-bar-lock:before {
+  content: "\f0b6";
+}
+
 .mi-signal-wifi-4-bar:before {
   content: "\e1d8";
 }
@@ -6108,6 +6224,22 @@
   content: "\f063";
 }
 
+.mi-signal-wifi-connected-no-internet-0:before {
+  content: "\f0f2";
+}
+
+.mi-signal-wifi-connected-no-internet-1:before {
+  content: "\f0ee";
+}
+
+.mi-signal-wifi-connected-no-internet-2:before {
+  content: "\f0f1";
+}
+
+.mi-signal-wifi-connected-no-internet-3:before {
+  content: "\f0ed";
+}
+
 .mi-signal-wifi-connected-no-internet-4:before {
   content: "\f064";
 }
@@ -6116,12 +6248,44 @@
   content: "\e1da";
 }
 
+.mi-signal-wifi-statusbar-1-bar:before {
+  content: "\f0e6";
+}
+
+.mi-signal-wifi-statusbar-2-bar:before {
+  content: "\f0f0";
+}
+
+.mi-signal-wifi-statusbar-3-bar:before {
+  content: "\f0ea";
+}
+
 .mi-signal-wifi-statusbar-4-bar:before {
   content: "\f065";
 }
 
+.mi-signal-wifi-statusbar-connected-no-internet:before {
+  content: "\f0f8";
+}
+
+.mi-signal-wifi-statusbar-connected-no-internet-1:before {
+  content: "\f0e9";
+}
+
+.mi-signal-wifi-statusbar-connected-no-internet-2:before {
+  content: "\f0f7";
+}
+
+.mi-signal-wifi-statusbar-connected-no-internet-3:before {
+  content: "\f0e8";
+}
+
 .mi-signal-wifi-statusbar-connected-no-internet-4:before {
   content: "\f066";
+}
+
+.mi-signal-wifi-statusbar-not-connected:before {
+  content: "\f0ef";
 }
 
 .mi-signal-wifi-statusbar-null:before {
@@ -6269,7 +6433,7 @@
 }
 
 .mi-space-dashboard:before {
-  content: "\-1";
+  content: "\e66b";
 }
 
 .mi-speaker:before {
@@ -6845,7 +7009,7 @@
 }
 
 .mi-tips-and-updates:before {
-  content: "\-1";
+  content: "\e79a";
 }
 
 .mi-title:before {
@@ -7224,6 +7388,10 @@
   content: "\e04d";
 }
 
+.mi-volume-down-alt:before {
+  content: "\e79c";
+}
+
 .mi-volume-mute:before {
   content: "\e04e";
 }
@@ -7297,7 +7465,7 @@
 }
 
 .mi-water-drop:before {
-  content: "\-1";
+  content: "\e798";
 }
 
 .mi-waterfall-chart:before {
@@ -7309,7 +7477,7 @@
 }
 
 .mi-waving-hand:before {
-  content: "\-1";
+  content: "\e766";
 }
 
 .mi-wb-auto:before {
@@ -7360,6 +7528,10 @@
   content: "\e4f7";
 }
 
+.mi-web-stories:before {
+  content: "\e595";
+}
+
 .mi-weekend:before {
   content: "\e16b";
 }
@@ -7390,6 +7562,14 @@
 
 .mi-wifi-calling:before {
   content: "\ef77";
+}
+
+.mi-wifi-calling-1:before {
+  content: "\f0e7";
+}
+
+.mi-wifi-calling-2:before {
+  content: "\f0f6";
 }
 
 .mi-wifi-calling-3:before {
