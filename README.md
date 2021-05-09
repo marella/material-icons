@@ -58,11 +58,8 @@ $material-icons-font-path: '~material-icons/iconfont/';
 Available Sass variables:
 
 ```scss
-$material-icons-codepoints: () !default; /* Sass map of icon names and codepoints */
 $material-icons-font-path: '' !default;
-$material-icons-font-name: 'MaterialIcons-Regular' !default;
 $material-icons-font-size: 24px !default;
-$material-icons-font-family: 'Material Icons' !default;
 $material-icons-font-display: block !default;
 ```
 
