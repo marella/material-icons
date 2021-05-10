@@ -41,6 +41,9 @@ To display outlined, round, sharp and two tone icons, use:
 <span class="material-icons-two-tone">home</span>
 ```
 
+<details>
+<summary><strong>Customize using Sass</strong></summary>
+
 To customize the build, import Sass instead of CSS:
 
 ```scss
@@ -63,13 +66,7 @@ $material-icons-font-size: 24px !default;
 $material-icons-font-display: block !default;
 ```
 
-Available Sass mixins:
-
-```scss
-.material-icons {
-  @include material-icons();
-}
-```
+</details>
 
 ## CSS Classes (Optional)
 
@@ -98,6 +95,9 @@ To display outlined, round, sharp and two tone icons, use:
 <span class="material-icons-two-tone mi-home"></span>
 ```
 
+<details>
+<summary><strong>Customize using Sass</strong></summary>
+
 To customize the build, import Sass instead of CSS:
 
 ```scss
@@ -118,13 +118,7 @@ $material-icons-css-search: '_' !default;
 $material-icons-css-replace: '-' !default; /* To replace '_' with '-' in CSS class names */
 ```
 
-Available Sass mixins:
-
-```scss
-.mi-home {
-  @include material-icon('home');
-}
-```
+</details>
 
 ## Available Icons
 
