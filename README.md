@@ -8,6 +8,12 @@ Material design icon font and CSS framework for self hosting the icons.
 - [Usage](#usage)
 - [Available Icons](#available-icons)
 
+## Upcoming Changes
+
+- [ ] Remove `eot` font files as they are only required for IE6-8
+- [ ] Remove `ttf` and `otf` font files as `woff2` and `woff` font files should be enough for modern browsers
+- [ ] Remove `local()` font references in CSS
+
 ## Installation
 
 Download the [latest release] or install using npm:
