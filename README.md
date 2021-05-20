@@ -12,13 +12,12 @@ Material design icon font and CSS framework for self hosting the icons.
 
 - [ ] Remove `eot` font files as they are only required for IE6-8
 - [ ] Remove `ttf` and `otf` font files as `woff2` and `woff` font files should be enough for modern browsers
-- [ ] Remove `local()` font references in CSS
 
 ## Installation
 
 Download the [latest release] or install using npm:
 
-```
+```sh
 npm install material-icons
 ```
 
@@ -35,16 +34,16 @@ Import CSS:
 To display an icon, use:
 
 ```html
-<span class="material-icons">home</span>
+<span class="material-icons">pie_chart</span>
 ```
 
 To display outlined, round, sharp and two tone icons, use:
 
 ```html
-<span class="material-icons-outlined">home</span>
-<span class="material-icons-round">home</span>
-<span class="material-icons-sharp">home</span>
-<span class="material-icons-two-tone">home</span>
+<span class="material-icons-outlined">pie_chart</span>
+<span class="material-icons-round">pie_chart</span>
+<span class="material-icons-sharp">pie_chart</span>
+<span class="material-icons-two-tone">pie_chart</span>
 ```
 
 <details>
@@ -74,9 +73,9 @@ $material-icons-font-display: block !default;
 
 </details>
 
-## CSS Classes (Optional)
+### CSS Classes
 
-Alternatively, you may use CSS classes `<span class="material-icons mi-home"></span>` instead of ligatures `<span class="material-icons">home</span>` to display an icon.
+Alternatively, you may use CSS classes instead of ligatures to display an icon.
 
 > **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files.
 
@@ -89,16 +88,16 @@ Import CSS:
 To display an icon, use:
 
 ```html
-<span class="material-icons mi-home"></span>
+<span class="material-icons mi-pie-chart"></span>
 ```
 
 To display outlined, round, sharp and two tone icons, use:
 
 ```html
-<span class="material-icons-outlined mi-home"></span>
-<span class="material-icons-round mi-home"></span>
-<span class="material-icons-sharp mi-home"></span>
-<span class="material-icons-two-tone mi-home"></span>
+<span class="material-icons-outlined mi-pie-chart"></span>
+<span class="material-icons-round mi-pie-chart"></span>
+<span class="material-icons-sharp mi-pie-chart"></span>
+<span class="material-icons-two-tone mi-pie-chart"></span>
 ```
 
 <details>

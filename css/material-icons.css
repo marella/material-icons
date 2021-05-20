@@ -1604,6 +1604,10 @@
   content: "\e2c3";
 }
 
+.mi-co2:before {
+  content: "\e7b0";
+}
+
 .mi-code:before {
   content: "\e86f";
 }
@@ -1642,6 +1646,10 @@
 
 .mi-comment-bank:before {
   content: "\ea4e";
+}
+
+.mi-comments-disabled:before {
+  content: "\e7a2";
 }
 
 .mi-commute:before {
@@ -3112,6 +3120,10 @@
   content: "\e908";
 }
 
+.mi-gif-box:before {
+  content: "\e7a3";
+}
+
 .mi-gite:before {
   content: "\e58b";
 }
@@ -3206,6 +3218,10 @@
 
 .mi-group-off:before {
   content: "\e747";
+}
+
+.mi-group-remove:before {
+  content: "\e7ad";
 }
 
 .mi-group-work:before {
@@ -7618,6 +7634,10 @@
 
 .mi-work-outline:before {
   content: "\e943";
+}
+
+.mi-workspace-premium:before {
+  content: "\e7af";
 }
 
 .mi-workspaces:before {
