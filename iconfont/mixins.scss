@@ -31,7 +31,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: $font-display;
-    src: url('#{$font-file}.eot'); /* For IE6-8 */
     src: local($font-family), local($font-name),
       url('#{$font-file}.woff2') format('woff2'),
       url('#{$font-file}.woff') format('woff'),
