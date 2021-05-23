@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("MaterialIcons-Regular.woff2") format("woff2"), url("MaterialIcons-Regular.woff") format("woff");
+  src: url("./MaterialIcons-Regular.woff2") format("woff2"), url("./MaterialIcons-Regular.woff") format("woff");
 }
 
 .material-icons, .material-icons-outlined, .material-icons-round, .material-icons-sharp, .material-icons-two-tone {
@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("MaterialIconsOutlined-Regular.woff2") format("woff2"), url("MaterialIconsOutlined-Regular.woff") format("woff");
+  src: url("./MaterialIconsOutlined-Regular.woff2") format("woff2"), url("./MaterialIconsOutlined-Regular.woff") format("woff");
 }
 
 .material-icons-outlined {
@@ -45,7 +45,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("MaterialIconsRound-Regular.woff2") format("woff2"), url("MaterialIconsRound-Regular.woff") format("woff");
+  src: url("./MaterialIconsRound-Regular.woff2") format("woff2"), url("./MaterialIconsRound-Regular.woff") format("woff");
 }
 
 .material-icons-round {
@@ -57,7 +57,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("MaterialIconsSharp-Regular.woff2") format("woff2"), url("MaterialIconsSharp-Regular.woff") format("woff");
+  src: url("./MaterialIconsSharp-Regular.woff2") format("woff2"), url("./MaterialIconsSharp-Regular.woff") format("woff");
 }
 
 .material-icons-sharp {
@@ -69,7 +69,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("MaterialIconsTwoTone-Regular.woff2") format("woff2"), url("MaterialIconsTwoTone-Regular.woff") format("woff");
+  src: url("./MaterialIconsTwoTone-Regular.woff2") format("woff2"), url("./MaterialIconsTwoTone-Regular.woff") format("woff");
 }
 
 .material-icons-two-tone {

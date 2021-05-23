@@ -66,7 +66,7 @@ $material-icons-font-path: '~material-icons/iconfont/';
 Available Sass variables:
 
 ```scss
-$material-icons-font-path: '' !default;
+$material-icons-font-path: './' !default;
 $material-icons-font-size: 24px !default;
 $material-icons-font-display: block !default;
 ```
