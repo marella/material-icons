@@ -32,12 +32,7 @@
     font-weight: 400;
     font-display: $font-display;
     src: url('#{$font-file}.woff2') format('woff2'),
-      url('#{$font-file}.woff') format('woff'),
-      if(
-        $otf,
-        url('#{$font-file}.otf') format('opentype'),
-        url('#{$font-file}.ttf') format('truetype')
-      );
+      url('#{$font-file}.woff') format('woff');
   }
 }
 
