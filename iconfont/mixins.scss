@@ -24,7 +24,8 @@
   $font-path: $material-icons-font-path,
   $font-display: $material-icons-font-display
 ) {
-  $font-file: $font-path + $font-name;
+  $font-file: material-icons-str-replace(to-lower-case($font-family), ' ', '-');
+  $font-file: $font-path + $font-file;
 
   @font-face {
     font-family: $font-family;

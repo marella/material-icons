@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 fonts=(
     "Material Icons"
     "Material Icons Outlined"
@@ -25,12 +27,14 @@ baseurl="https://fonts.googleapis.com/icon?family="
 dest="$(dirname "$0")/../iconfont"
 
 download_fonts() {
+    local font
     for font in "${fonts[@]}"; do
         download_font "$font"
     done
 }
 
 download_font() {
+    local agent
     for agent in "${agents[@]}"; do
         download_as "$agent" "$baseurl${1// /+}"
     done
@@ -38,10 +42,10 @@ download_font() {
 
 download_as() {
     local css="$(curl -sL -H "User-Agent: $1" "$2")"
-    local name="$(match "$css" "font-family: *'([^']+)';")"; name="${name// /}"
+    local name="$(match "$css" "font-family: *'([^']+)';")"; name="${name// /-}"
     local url="$(match "$css" "src: *url\(([^\)]+)\)")"; url="${url//[\'\"]/}"
     local ext="$(match "$url" "\.([^\.]+)$")"
-    name="$name-Regular.$ext"
+    name="$(echo "$name" | tr '[:upper:]' '[:lower:]').$ext"
     echo -n "Downloading $name from $url..."
     curl -sL $url -o "$dest/$name"
     echo "Done"

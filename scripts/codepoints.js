@@ -21,10 +21,10 @@ const getExistingCodepoints = () => {
 
 const getLatestCodepoints = () => {
   const codepoints = {}
-  const styles = ['', 'Outlined', 'Round', 'Sharp', 'TwoTone']
+  const styles = ['', 'outlined', 'round', 'sharp', 'two-tone']
   styles.reverse() // last processed font overwrites previous ones
   styles.forEach((style) => {
-    const file = `${ICONFONT_DIR}/MaterialIcons${style}-Regular.woff`
+    const file = `${ICONFONT_DIR}/material-icons${style && `-${style}`}.woff`
     processFont(file, codepoints)
   })
   return sortMap(codepoints)
