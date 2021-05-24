@@ -6,7 +6,7 @@ $material-icons-css-search: '_' !default;
 $material-icons-css-replace: '-' !default;
 
 .#{$material-icons-css-prefix} {
-  @include material-icons();
+  @include material-icons('Material Icons');
 }
 
 @each $name in 'Outlined', 'Round', 'Sharp', 'Two Tone' {
