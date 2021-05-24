@@ -1,5 +1,10 @@
-@import 'codepoints.scss';
-
 $material-icons-font-path: './' !default;
 $material-icons-font-size: 24px !default;
 $material-icons-font-display: block !default;
+$material-icons-font-families: (
+  'Material Icons',
+  'Material Icons Outlined',
+  'Material Icons Round',
+  'Material Icons Sharp',
+  'Material Icons Two Tone'
+) !default;

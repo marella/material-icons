@@ -1,3 +1,4 @@
+@import '../iconfont/codepoints';
 @import '../iconfont/variables';
 @import '../iconfont/mixins';
 
@@ -5,17 +6,16 @@ $material-icons-css-prefix: 'mi' !default;
 $material-icons-css-search: '_' !default;
 $material-icons-css-replace: '-' !default;
 
-.#{$material-icons-css-prefix} {
-  @include material-icons('Material Icons');
-}
+@each $font-family in $material-icons-font-families {
+  $class-name: material-icons-kebab-case($font-family);
+  $class-name: material-icons-str-replace(
+    $class-name,
+    'material-icons',
+    $material-icons-css-prefix
+  );
 
-@each $name in 'Outlined', 'Round', 'Sharp', 'Two Tone' {
-  $font-family: 'Material Icons #{$name}';
-  $class-name: material-icons-str-replace(to-lower-case($name), ' ', '-');
-
-  .#{$material-icons-css-prefix}-#{$class-name} {
-    @extend #{'.' + $material-icons-css-prefix};
-    font-family: $font-family;
+  .#{$class-name} {
+    @include material-icons($font-family);
   }
 }
 

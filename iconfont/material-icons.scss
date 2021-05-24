@@ -1,20 +1,12 @@
 @import 'variables';
 @import 'mixins';
 
-@include material-icons-font-face('Material Icons');
-
-.material-icons {
-  @include material-icons('Material Icons');
-}
-
-@each $name in 'Outlined', 'Round', 'Sharp', 'Two Tone' {
-  $font-family: 'Material Icons #{$name}';
-  $class-name: material-icons-str-replace(to-lower-case($name), ' ', '-');
+@each $font-family in $material-icons-font-families {
+  $class-name: material-icons-kebab-case($font-family);
 
   @include material-icons-font-face($font-family);
 
-  .material-icons-#{$class-name} {
-    @extend .material-icons;
-    font-family: $font-family;
+  .#{$class-name} {
+    @include material-icons($font-family);
   }
 }
