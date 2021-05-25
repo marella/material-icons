@@ -58,12 +58,6 @@ layout: default
       nav.appendChild(renderNavLink('#' + getId(className), getName(className)))
       container.appendChild(renderIcons(icons, className))
     })
-
-    try {
-      anchors.add()
-    } catch (e) {
-      console.error(e)
-    }
   }
 
   const renderIcons = (icons, className='') => {
