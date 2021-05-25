@@ -16,6 +16,8 @@ layout: default
 
   .demo-icon > span {
     font-size: 48px;
+    max-width: 100%;
+    overflow: hidden;
   }
 
   .text-capitalize {
@@ -108,9 +110,9 @@ layout: default
     return li
   }
 
-  const codepoints = "{{ "/iconfont/codepoints.json?v=" | append: site.github.build_revision | relative_url }}"
+  const codepoints = '{{ site.data.codepoints | jsonify }}'
 
-  fetch(codepoints).then((res) => res.json()).then(render)
+  render(JSON.parse(codepoints))
 })()
 </script>
 

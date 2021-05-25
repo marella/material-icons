@@ -5,7 +5,7 @@ const opentype = require('opentype.js')
 
 const ROOT_DIR = path.resolve(__dirname, '..')
 const ICONFONT_DIR = path.resolve(ROOT_DIR, 'iconfont')
-const CODEPOINTS_JSON = path.resolve(ICONFONT_DIR, 'codepoints.json')
+const CODEPOINTS_JSON = path.resolve(ROOT_DIR, '_data', 'codepoints.json')
 const CODEPOINTS_SCSS = path.resolve(ROOT_DIR, 'css', 'codepoints.scss')
 
 const main = () => {
