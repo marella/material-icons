@@ -2,6 +2,10 @@
   "name": "material-icons",
   "version": "0.6.4",
   "description": "Material design icon font and CSS framework for self hosting the icons.",
+  "files": [
+    "css/*.{css,scss}",
+    "iconfont/*.{css,scss,woff,woff2}"
+  ],
   "browser": "iconfont/material-icons.css",
   "scripts": {
     "build": "npm run build:codepoints && npm run build:iconfont && npm run build:css && npm run build:css:min",
@@ -17,7 +21,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marella/material-icons.git"
+    "url": "git+https://github.com/marella/material-icons.git"
   },
   "bugs": {
     "url": "https://github.com/marella/material-icons/issues"
