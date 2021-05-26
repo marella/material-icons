@@ -8,15 +8,14 @@
   ],
   "browser": "iconfont/material-icons.css",
   "scripts": {
-    "build": "npm run build:codepoints && npm run build:iconfont && npm run build:css && npm run build:css:min",
+    "build": "npm run build:codepoints && npm run build:css && npm run build:css:min",
     "build:codepoints": "node scripts/codepoints.js",
-    "build:iconfont": "node-sass --output-style=expanded iconfont/material-icons.scss iconfont/material-icons.css",
-    "build:css": "node-sass --output-style=expanded css/material-icons.scss css/material-icons.css",
-    "build:css:min": "node-sass --output-style=compressed css/material-icons.scss css/material-icons.min.css"
+    "build:css": "sass --no-source-map --no-error-css css iconfont",
+    "build:css:min": "sass --style compressed --no-source-map --no-error-css css/material-icons.scss:css/material-icons.min.css"
   },
   "devDependencies": {
-    "node-sass": "^5.0.0",
-    "opentype.js": "^1.3.3"
+    "opentype.js": "^1.3.3",
+    "sass": "^1.34.0"
   },
   "license": "Apache-2.0",
   "repository": {
