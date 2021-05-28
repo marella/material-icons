@@ -475,6 +475,14 @@
   content: "\e637";
 }
 
+.mi-airline-stops:before {
+  content: "\e7d0";
+}
+
+.mi-airlines:before {
+  content: "\e7ca";
+}
+
 .mi-airplane-ticket:before {
   content: "\efd9";
 }
@@ -621,6 +629,10 @@
 
 .mi-apps:before {
   content: "\e5c3";
+}
+
+.mi-apps-outage:before {
+  content: "\e7cc";
 }
 
 .mi-architecture:before {
@@ -1203,6 +1215,10 @@
   content: "\ef47";
 }
 
+.mi-browser-updated:before {
+  content: "\e7cf";
+}
+
 .mi-brunch-dining:before {
   content: "\ea73";
 }
@@ -1693,6 +1709,10 @@
 
 .mi-connected-tv:before {
   content: "\e998";
+}
+
+.mi-connecting-airports:before {
+  content: "\e7c9";
 }
 
 .mi-construction:before {
@@ -2503,6 +2523,10 @@
   content: "\e94f";
 }
 
+.mi-expand-circle-down:before {
+  content: "\e7cd";
+}
+
 .mi-expand-less:before {
   content: "\e5ce";
 }
@@ -2849,6 +2873,10 @@
 
 .mi-flight:before {
   content: "\e539";
+}
+
+.mi-flight-class:before {
+  content: "\e7cb";
 }
 
 .mi-flight-land:before {
@@ -3603,6 +3631,10 @@
   content: "\ef54";
 }
 
+.mi-interests:before {
+  content: "\e7c8";
+}
+
 .mi-inventory:before {
   content: "\e179";
 }
@@ -4325,6 +4357,10 @@
 
 .mi-mode-night:before {
   content: "\f036";
+}
+
+.mi-mode-of-travel:before {
+  content: "\e7ce";
 }
 
 .mi-mode-standby:before {
@@ -6421,6 +6457,10 @@
 
 .mi-sort-by-alpha:before {
   content: "\e053";
+}
+
+.mi-soup-kitchen:before {
+  content: "\e7d3";
 }
 
 .mi-source:before {
