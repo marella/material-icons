@@ -2,33 +2,24 @@
 
 Material design icon font and CSS framework for self hosting the icons.
 
-> This package contains only the icon font and required CSS. So it is considerably smaller than the official `material-design-icons` package and easy to install.
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Available Icons](#available-icons)
 
-## Upcoming Changes
-
-- [ ] Remove `eot` font files as they are only required for IE6-8
-- [ ] Remove `ttf` and `otf` font files as `woff2` and `woff` font files should be enough for modern browsers
-
 ## Installation
 
-Download the [latest release] or install using npm:
+Install the [latest version][releases] using:
 
 ```sh
-npm install material-icons
+npm install material-icons@latest
 ```
 
 ## Usage
 
-Font files are present in the [`iconfont`][iconfont] directory and can be imported using CSS.
-
-Import CSS:
+Fonts are located in the [`iconfont`][iconfont] directory and can be imported using CSS:
 
 ```html
-<link rel="stylesheet" href="/path/to/material-icons/iconfont/material-icons.css">
+<link href="/path/to/material-icons/iconfont/material-icons.css" rel="stylesheet">
 ```
 
 To display an icon, use:
@@ -37,7 +28,7 @@ To display an icon, use:
 <span class="material-icons">pie_chart</span>
 ```
 
-To display outlined, round, sharp and two tone icons, use:
+To display outlined, round, sharp and two-tone icons, use:
 
 ```html
 <span class="material-icons-outlined">pie_chart</span>
@@ -45,6 +36,45 @@ To display outlined, round, sharp and two tone icons, use:
 <span class="material-icons-sharp">pie_chart</span>
 <span class="material-icons-two-tone">pie_chart</span>
 ```
+
+For more advanced usage, see:
+
+<details>
+<summary><strong>Import using build tools</strong></summary>
+
+If you are using webpack, Create React App or Vue CLI, import CSS in `src/index.js` or `src/main.js`:
+
+```js
+import 'material-icons/iconfont/material-icons.css';
+```
+
+If you are using Angular CLI, import CSS in `src/styles.css`:
+
+```css
+@import 'material-icons/iconfont/material-icons.css';
+```
+
+</details>
+
+<details>
+<summary><strong>Display using Angular <code>mat-icon</code></strong></summary>
+
+To display an icon, use:
+
+```html
+<mat-icon>pie_chart</mat-icon>
+```
+
+To display outlined, round, sharp and two-tone icons, use:
+
+```html
+<mat-icon fontSet="material-icons-outlined">pie_chart</mat-icon>
+<mat-icon fontSet="material-icons-round">pie_chart</mat-icon>
+<mat-icon fontSet="material-icons-sharp">pie_chart</mat-icon>
+<mat-icon fontSet="material-icons-two-tone">pie_chart</mat-icon>
+```
+
+</details>
 
 <details>
 <summary><strong>Customize using Sass</strong></summary>
@@ -55,14 +85,6 @@ To customize the build, import Sass instead of CSS:
 @import 'material-icons/iconfont/material-icons.scss';
 ```
 
-If you are using webpack sass-loader, use:
-
-```scss
-$material-icons-font-path: '~material-icons/iconfont/';
-
-@import '~material-icons/iconfont/material-icons.scss';
-```
-
 Available Sass variables:
 
 ```scss
@@ -71,18 +93,22 @@ $material-icons-font-size: 24px !default;
 $material-icons-font-display: block !default;
 ```
 
+If you are getting errors with webpack or Vue CLI, add this line before importing above Sass file:
+
+```scss
+$material-icons-font-path: '~material-icons/iconfont/';
+```
+
 </details>
 
 ### CSS Classes
 
-Alternatively, you may use CSS classes instead of ligatures to display an icon.
+> **Note:** This method is not recommended as it requires an additional large CSS file.
 
-> **Note:** This method is not recommended as it requires a large CSS file to be imported in addition to above files.
-
-Import CSS:
+Alternatively, you may use CSS classes to display icons by importing additional CSS:
 
 ```html
-<link rel="stylesheet" href="/path/to/material-icons/css/material-icons.min.css">
+<link href="/path/to/material-icons/css/material-icons.css" rel="stylesheet">
 ```
 
 To display an icon, use:
@@ -91,7 +117,7 @@ To display an icon, use:
 <span class="material-icons mi-pie-chart"></span>
 ```
 
-To display outlined, round, sharp and two tone icons, use:
+To display outlined, round, sharp and two-tone icons, use:
 
 ```html
 <span class="material-icons-outlined mi-pie-chart"></span>
@@ -99,6 +125,45 @@ To display outlined, round, sharp and two tone icons, use:
 <span class="material-icons-sharp mi-pie-chart"></span>
 <span class="material-icons-two-tone mi-pie-chart"></span>
 ```
+
+For more advanced usage, see:
+
+<details>
+<summary><strong>Import using build tools</strong></summary>
+
+If you are using webpack, Create React App or Vue CLI, import CSS in `src/index.js` or `src/main.js`:
+
+```js
+import 'material-icons/css/material-icons.css';
+```
+
+If you are using Angular CLI, import CSS in `src/styles.css`:
+
+```css
+@import 'material-icons/css/material-icons.css';
+```
+
+</details>
+
+<details>
+<summary><strong>Display using Angular <code>mat-icon</code></strong></summary>
+
+To display an icon, use:
+
+```html
+<mat-icon fontIcon="mi-pie-chart"></mat-icon>
+```
+
+To display outlined, round, sharp and two-tone icons, use:
+
+```html
+<mat-icon fontSet="material-icons-outlined" fontIcon="mi-pie-chart"></mat-icon>
+<mat-icon fontSet="material-icons-round" fontIcon="mi-pie-chart"></mat-icon>
+<mat-icon fontSet="material-icons-sharp" fontIcon="mi-pie-chart"></mat-icon>
+<mat-icon fontSet="material-icons-two-tone" fontIcon="mi-pie-chart"></mat-icon>
+```
+
+</details>
 
 <details>
 <summary><strong>Customize using Sass</strong></summary>
@@ -109,18 +174,12 @@ To customize the build, import Sass instead of CSS:
 @import 'material-icons/css/material-icons.scss';
 ```
 
-If you are using webpack sass-loader, use:
-
-```scss
-@import '~material-icons/css/material-icons.scss';
-```
-
 Available Sass variables:
 
 ```scss
 $material-icons-css-prefix: 'mi' !default;
 $material-icons-css-search: '_' !default;
-$material-icons-css-replace: '-' !default; /* To replace '_' with '-' in CSS class names */
+$material-icons-css-replace: '-' !default; // Replaces '_' with '-' in CSS classes
 ```
 
 </details>
@@ -129,6 +188,14 @@ $material-icons-css-replace: '-' !default; /* To replace '_' with '-' in CSS cla
 
 See [demo].
 
-[latest release]: https://github.com/marella/material-icons/releases
-[iconfont]: https://github.com/marella/material-icons/tree/master/iconfont
+## License
+
+Material design icons are created by [Google](https://github.com/google/material-design-icons#license).
+
+> We have made these icons available for you to incorporate into your products under the [Apache License Version 2.0][license]. Feel free to remix and re-share these icons and documentation in your products.
+We'd love attribution in your app's *about* screen, but it's not required. The only thing we ask is that you not re-sell these icons.
+
+[releases]: https://github.com/marella/material-icons/releases
+[iconfont]: https://github.com/marella/material-icons/tree/main/iconfont
+[license]: https://github.com/marella/material-icons/blob/main/LICENSE
 [demo]: https://marella.github.io/material-icons/demo/
