@@ -20,6 +20,19 @@ layout: default
     overflow: hidden;
   }
 
+  .demo-search {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+
+  .demo-search:focus {
+    border-color: #0366d6;
+    outline: 0;
+  }
+
   .text-capitalize {
     text-transform: capitalize;
   }
@@ -31,6 +44,8 @@ layout: default
   }
 
 </style>
+
+<style id="demo-search-style" type="text/css"></style>
 
 <div id="demo-container"></div>
 
@@ -50,9 +65,12 @@ layout: default
     const heading = create('h1')
     heading.innerText = 'Available Icons'
     container.appendChild(heading)
+
     const nav = create('ul')
     nav.classList.add('text-capitalize')
     container.appendChild(nav)
+
+    container.appendChild(renderSearch())
 
     styles.forEach((className) => {
       nav.appendChild(renderNavLink('#' + getId(className), getName(className)))
@@ -89,6 +107,7 @@ layout: default
     const div = create('div')
     div.classList.add('demo-icon', 'tooltipped')
     div.setAttribute('aria-label', icon.outerHTML)
+    div.setAttribute('data-icon', name)
     div.appendChild(icon)
     div.appendChild(create('br'))
     div.appendChild(text)
@@ -104,6 +123,35 @@ layout: default
     return li
   }
 
+  const renderSearch = () => {
+    const input = create('input')
+    input.classList.add('demo-search')
+    input.setAttribute('type', 'text')
+    input.setAttribute('placeholder', 'Search')
+    input.autofocus = true
+    input.addEventListener('keyup', (e) => { search(e.currentTarget.value) })
+    return input
+  }
+
+  // see https://davidwalsh.name/javascript-debounce-function
+  const debounce = (func, wait = 500) => {
+    let timeout = null
+    return (...args) => {
+      const later = () => {
+        timeout = null
+        func(...args)
+      }
+      clearTimeout(timeout)
+      timeout = setTimeout(later, wait)
+    }
+  }
+
+  const search = debounce((q) => {
+    q = (q || '').toLowerCase().replace(/[^a-z0-9_ -]+/g, '').trim().replace(/[ -]+/g, '_')
+    document.getElementById('demo-search-style').innerText =
+      q && `.demo-icon:not([data-icon*="${q}"]) { display: none; }`
+  })
+
   const codepoints = '{{ site.data.codepoints | jsonify }}'
 
   render(JSON.parse(codepoints))
@@ -112,9 +160,7 @@ layout: default
 
 <style type="text/css">
 
-  /**
-   * see https://github.com/primer/css/blob/master/src/tooltips/tooltips.scss
-   */
+  /* see https://github.com/primer/css/blob/main/src/tooltips/tooltips.scss */
 
   .tooltipped {
     position: relative;
