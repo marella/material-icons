@@ -47,7 +47,8 @@
   }
 }
 
-%material-icons {
+@mixin material-icons($font-family) {
+  font-family: $font-family;
   font-weight: normal;
   font-style: normal;
   font-size: $material-icons-font-size;
@@ -62,11 +63,6 @@
   -moz-osx-font-smoothing: grayscale; // Support for Firefox
   text-rendering: optimizeLegibility; // Support for Safari and Chrome
   font-feature-settings: 'liga'; // Support for IE
-}
-
-@mixin material-icons($font-family) {
-  @extend %material-icons;
-  font-family: $font-family;
 }
 
 @mixin material-icon($name, $pseudo: 'before') {

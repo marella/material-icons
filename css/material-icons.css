@@ -1,4 +1,8 @@
-.mi-two-tone, .mi-sharp, .mi-round, .mi-outlined, .mi {
+/**
+ * @deprecated Use .material-icons instead of .mi
+ */
+.mi {
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -15,24 +19,88 @@
   font-feature-settings: "liga";
 }
 
-.mi {
-  font-family: "Material Icons";
-}
-
+/**
+ * @deprecated Use .material-icons-outlined instead of .mi-outlined
+ */
 .mi-outlined {
   font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
 }
 
+/**
+ * @deprecated Use .material-icons-round instead of .mi-round
+ */
 .mi-round {
   font-family: "Material Icons Round";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
 }
 
+/**
+ * @deprecated Use .material-icons-sharp instead of .mi-sharp
+ */
 .mi-sharp {
   font-family: "Material Icons Sharp";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
 }
 
+/**
+ * @deprecated Use .material-icons-two-tone instead of .mi-two-tone
+ */
 .mi-two-tone {
   font-family: "Material Icons Two Tone";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
 }
 
 .mi-360:before {

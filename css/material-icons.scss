@@ -7,13 +7,16 @@ $material-icons-css-search: '_' !default;
 $material-icons-css-replace: '-' !default;
 
 @each $font-family in $material-icons-font-families {
-  $class-name: material-icons-kebab-case($font-family);
+  $original-class-name: material-icons-kebab-case($font-family);
   $class-name: material-icons-str-replace(
-    $class-name,
+    $original-class-name,
     'material-icons',
     $material-icons-css-prefix
   );
 
+  /**
+   * @deprecated Use .#{$original-class-name} instead of .#{$class-name}
+   */
   .#{$class-name} {
     @include material-icons($font-family);
   }
