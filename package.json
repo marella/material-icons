@@ -7,6 +7,7 @@
     "iconfont/*.{css,scss,woff,woff2}"
   ],
   "browser": "iconfont/material-icons.css",
+  "sass": "iconfont/material-icons.scss",
   "scripts": {
     "build": "npm run build:codepoints && npm run build:css && npm run build:css:min",
     "build:codepoints": "node scripts/codepoints.js",

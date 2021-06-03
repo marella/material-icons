@@ -2,11 +2,5 @@
 @import 'mixins';
 
 @each $font-family in $material-icons-font-families {
-  $class-name: material-icons-kebab-case($font-family);
-
-  @include material-icons-font-face($font-family);
-
-  .#{$class-name} {
-    @include material-icons($font-family);
-  }
+  @include material-icons-font($font-family);
 }

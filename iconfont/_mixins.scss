@@ -1,4 +1,4 @@
-// see https://github.com/twbs/bootstrap/blob/main/scss/_functions.scss
+// @see https://github.com/twbs/bootstrap/blob/main/scss/_functions.scss
 @function material-icons-str-replace($string, $search, $replace: '') {
   $index: str-index($string, $search);
   @if $index {
@@ -12,25 +12,9 @@
   @return $string;
 }
 
-// see https://stackoverflow.com/a/62698329
-@function material-icons-str-trim($string) {
-  @if (str-slice($string, 1, 1) == ' ') {
-    @return material-icons-str-trim(str-slice($string, 2));
-  } @else if (str-slice($string, str-length($string), -1) == ' ') {
-    @return material-icons-str-trim(str-slice($string, 1, -2));
-  } @else {
-    @return $string;
-  }
-}
-
 @function material-icons-kebab-case($string) {
   $string: to-lower-case($string);
-  $string: material-icons-str-trim($string);
   @return material-icons-str-replace($string, ' ', '-');
-}
-
-@function material-icons-content($codepoint) {
-  @return unquote('"\\#{$codepoint}"');
 }
 
 @mixin material-icons-font-face($font-family) {
@@ -47,7 +31,7 @@
   }
 }
 
-@mixin material-icons($font-family) {
+@mixin material-icons-font-class($font-family) {
   font-family: $font-family;
   font-weight: normal;
   font-style: normal;
@@ -65,10 +49,12 @@
   font-feature-settings: 'liga'; // Support for IE
 }
 
-@mixin material-icon($name, $pseudo: 'before') {
-  $codepoint: map-get($material-icons-codepoints, $name);
+@mixin material-icons-font($font-family) {
+  $class-name: material-icons-kebab-case($font-family);
 
-  &:#{$pseudo} {
-    content: material-icons-content($codepoint);
+  @include material-icons-font-face($font-family);
+
+  .#{$class-name} {
+    @include material-icons-font-class($font-family);
   }
 }

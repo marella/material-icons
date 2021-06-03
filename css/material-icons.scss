@@ -1,10 +1,5 @@
-@import '../iconfont/variables';
-@import '../iconfont/mixins';
-@import 'codepoints';
-
-$material-icons-css-prefix: 'mi' !default;
-$material-icons-css-search: '_' !default;
-$material-icons-css-replace: '-' !default;
+@import 'variables';
+@import 'mixins';
 
 @each $font-family in $material-icons-font-families {
   $original-class-name: material-icons-kebab-case($font-family);
@@ -18,7 +13,7 @@ $material-icons-css-replace: '-' !default;
    * @deprecated Use .#{$original-class-name} instead of .#{$class-name}
    */
   .#{$class-name} {
-    @include material-icons($font-family);
+    @include material-icons-font-class($font-family);
   }
 }
 
