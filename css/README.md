@@ -4,19 +4,19 @@ Alternatively, you may use CSS classes instead of ligatures to display icons.
 
 > **Note:** This method is not recommended as it requires an additional large CSS file.
 
-Import in JS file (example: `src/index.js` in Create React App, `src/main.js` in Vue CLI):
+Import in JS (example: `src/index.js` in Create React App, `src/main.js` in Vue CLI):
 
 ```js
 import 'material-icons/css/material-icons.css';
 ```
 
-or import in CSS file (example: `src/styles.css` in Angular CLI):
+or import in CSS (example: `src/styles.css` in Angular CLI):
 
 ```css
 @import 'material-icons/css/material-icons.css';
 ```
 
-or import in HTML file:
+or import in HTML:
 
 ```html
 <link href="/path/to/material-icons/css/material-icons.css" rel="stylesheet">
@@ -34,7 +34,7 @@ To display an icon, use one of the following:
 
 ### Using Sass
 
-Import in Sass file (example: `src/styles.scss` in Angular CLI):
+Import in Sass (example: `src/styles.scss` in Angular CLI):
 
 ```scss
 @import 'material-icons/css/material-icons.scss';

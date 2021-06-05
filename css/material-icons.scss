@@ -1,7 +1,15 @@
 @import 'variables';
 @import 'mixins';
 
-@each $font-family in $material-icons-font-families {
+@each $font-family
+  in (
+    'Material Icons',
+    'Material Icons Outlined',
+    'Material Icons Round',
+    'Material Icons Sharp',
+    'Material Icons Two Tone'
+  )
+{
   $original-class-name: material-icons-kebab-case($font-family);
   $class-name: material-icons-str-replace(
     $original-class-name,

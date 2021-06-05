@@ -16,19 +16,19 @@ npm install material-icons@latest
 
 ## Usage
 
-Import in JS file (example: `src/index.js` in Create React App, `src/main.js` in Vue CLI):
+Import in JS (example: `src/index.js` in Create React App, `src/main.js` in Vue CLI):
 
 ```js
 import 'material-icons/iconfont/material-icons.css';
 ```
 
-or import in CSS file (example: `src/styles.css` in Angular CLI):
+or import in CSS (example: `src/styles.css` in Angular CLI):
 
 ```css
 @import 'material-icons/iconfont/material-icons.css';
 ```
 
-or import in HTML file:
+or import in HTML:
 
 ```html
 <link href="/path/to/material-icons/iconfont/material-icons.css" rel="stylesheet">
@@ -44,9 +44,32 @@ To display an icon, use one of the following:
 <span class="material-icons-two-tone">pie_chart</span> <!-- Two Tone -->
 ```
 
+### Reducing Build Size
+
+The default `material-icons.css` includes CSS for all fonts. This may cause build tools such as webpack to copy all fonts to the build directory even if you are not using all of them. To reduce the build size, import only the styles you need. For example, if you only need filled and outlined icons, import `filled.css` and `outlined.css` instead of the default `material-icons.css`:
+
+```diff
+-import 'material-icons/iconfont/material-icons.css';
++import 'material-icons/iconfont/filled.css';
++import 'material-icons/iconfont/outlined.css';
+```
+
+<details>
+<summary><strong>Show all</strong></summary><br>
+
+Icons | CSS | Sass
+:--- | :--- | :---
+Filled | filled.css | filled.scss
+Outlined | outlined.css | outlined.scss
+Round | round.css | round.scss
+Sharp | sharp.css | sharp.scss
+Two Tone | two-tone.css | two-tone.scss
+
+</details>
+
 ### Using Sass
 
-Import in Sass file (example: `src/styles.scss` in Angular CLI):
+Import in Sass (example: `src/styles.scss` in Angular CLI):
 
 ```scss
 @import 'material-icons/iconfont/material-icons.scss';
@@ -60,7 +83,7 @@ $material-icons-font-size: 24px !default;
 $material-icons-font-display: block !default;
 ```
 
-If you are getting errors with webpack or Vue CLI, add this line before importing above Sass file:
+If you are getting errors with webpack or Vue CLI, add this line before importing:
 
 ```scss
 $material-icons-font-path: '~material-icons/iconfont/';

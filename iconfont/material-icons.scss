@@ -1,6 +1,5 @@
-@import 'variables';
-@import 'mixins';
-
-@each $font-family in $material-icons-font-families {
-  @include material-icons-font($font-family);
-}
+@import 'filled';
+@import 'outlined';
+@import 'round';
+@import 'sharp';
+@import 'two-tone';
