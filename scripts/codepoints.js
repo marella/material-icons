@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const { EOL } = require('os')
 const opentype = require('opentype.js')
 
 const ROOT_DIR = path.resolve(__dirname, '..')
@@ -72,7 +71,7 @@ const createSassMap = (codepoints) => {
   const mapName = '$material-icons-codepoints'
   let map = ''
   for (const [name, codepoint] of Object.entries(codepoints)) {
-    map += `  "${name}": ${codepoint},${EOL}`
+    map += `  "${name}": ${codepoint},\n`
   }
 
   map = map.replace(/,\s*$/, '')
