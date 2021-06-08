@@ -12,25 +12,6 @@
   @return $string;
 }
 
-@function material-icons-kebab-case($string) {
-  $string: to-lower-case($string);
-  @return material-icons-str-replace($string, ' ', '-');
-}
-
-@mixin material-icons-font-face($font-family) {
-  $font-file: $material-icons-font-path +
-    material-icons-kebab-case($font-family);
-
-  @font-face {
-    font-family: $font-family;
-    font-style: normal;
-    font-weight: 400;
-    font-display: $material-icons-font-display;
-    src: url('#{$font-file}.woff2') format('woff2'),
-      url('#{$font-file}.woff') format('woff');
-  }
-}
-
 @mixin material-icons-font-class($font-family) {
   font-family: $font-family;
   font-weight: normal;
@@ -50,9 +31,18 @@
 }
 
 @mixin material-icons-font($font-family) {
-  $class-name: material-icons-kebab-case($font-family);
+  $class-name: to-lower-case($font-family);
+  $class-name: material-icons-str-replace($class-name, ' ', '-');
+  $font-file: $material-icons-font-path + $class-name;
 
-  @include material-icons-font-face($font-family);
+  @font-face {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-display: $material-icons-font-display;
+    src: url('#{$font-file}.woff2') format('woff2'),
+      url('#{$font-file}.woff') format('woff');
+  }
 
   .#{$class-name} {
     @include material-icons-font-class($font-family);

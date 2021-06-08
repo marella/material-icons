@@ -10,15 +10,16 @@
     'Material Icons Two Tone'
   )
 {
-  $original-class-name: material-icons-kebab-case($font-family);
+  $full-class-name: to-lower-case($font-family);
+  $full-class-name: material-icons-str-replace($full-class-name, ' ', '-');
   $class-name: material-icons-str-replace(
-    $original-class-name,
+    $full-class-name,
     'material-icons',
     $material-icons-css-prefix
   );
 
   /**
-   * @deprecated Use .#{$original-class-name} instead of .#{$class-name}
+   * @deprecated Use .#{$full-class-name} instead of .#{$class-name}
    */
   .#{$class-name} {
     @include material-icons-font-class($font-family);
