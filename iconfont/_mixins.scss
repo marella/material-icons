@@ -48,3 +48,8 @@
     @include material-icons-font-class($font-family);
   }
 }
+
+@mixin material-icons() {
+  // @warn "material-icons() Sass mixin has been deprecated as of 1.0. Use '@extend .material-icons;' instead of '@include material-icons();'.";
+  @include material-icons-font-class('Material Icons');
+}
