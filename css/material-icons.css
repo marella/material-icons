@@ -6879,6 +6879,14 @@
   content: "\e9ec";
 }
 
+.mi-switch-access-shortcut:before {
+  content: "\e7e1";
+}
+
+.mi-switch-access-shortcut-add:before {
+  content: "\e7e2";
+}
+
 .mi-switch-account:before {
   content: "\e9ed";
 }
