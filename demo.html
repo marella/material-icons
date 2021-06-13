@@ -21,15 +21,36 @@ layout: default
   }
 
   .demo-search {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 10px 0;
+    background-color: #fff;
+  }
+
+  .demo-search > span {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 18px;
+  }
+
+  .demo-search input {
     display: block;
     width: 100%;
     padding: 10px 20px;
-    border: 1px solid #ccc;
+    padding-left: 50px;
+    border: 2px solid transparent;
     border-radius: 50px;
+    background-color: #f1f3f4;
   }
 
-  .demo-search:focus {
+  .demo-search input:hover {
+    background-color: #e9ebec;
+  }
+
+  .demo-search input:focus {
     border-color: #0366d6;
+    background-color: #fff;
     outline: 0;
   }
 
@@ -124,13 +145,22 @@ layout: default
   }
 
   const renderSearch = () => {
+    const div = create('div')
+    div.classList.add('demo-search')
+
+    const icon = create('span')
+    icon.classList.add('material-icons')
+    icon.innerText = 'search'
+    div.appendChild(icon)
+
     const input = create('input')
-    input.classList.add('demo-search')
     input.setAttribute('type', 'text')
     input.setAttribute('placeholder', 'Search')
     input.autofocus = true
     input.addEventListener('keyup', (e) => { search(e.currentTarget.value) })
-    return input
+    div.appendChild(input)
+
+    return div
   }
 
   // see https://davidwalsh.name/javascript-debounce-function
