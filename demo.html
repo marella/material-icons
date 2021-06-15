@@ -182,9 +182,11 @@ layout: default
       q && `.demo-icon:not([data-icon*="${q}"]) { display: none; }`
   })
 
-  const codepoints = '{{ site.data.codepoints | jsonify }}'
+  // codepoints.json (generated from fonts) contains junk icons
+  // so use versions.json (generated from metadata API)
+  const versions = '{{ site.data.versions | jsonify }}'
 
-  render(JSON.parse(codepoints))
+  render(JSON.parse(versions))
 })()
 </script>
 

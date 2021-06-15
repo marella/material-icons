@@ -9,8 +9,9 @@
   "browser": "iconfont/material-icons.css",
   "sass": "iconfont/material-icons.scss",
   "scripts": {
-    "download": "npm run download:font",
+    "download": "npm run download:font && npm run download:metadata",
     "download:font": "npx @material-design-icons/scripts download font --to iconfont",
+    "download:metadata": "npx @material-design-icons/scripts download metadata",
     "build": "npm run build:codepoints && npm run build:css && npm run build:css:min",
     "build:codepoints": "node scripts/codepoints.js",
     "build:css": "sass --no-source-map --no-error-css css iconfont",
