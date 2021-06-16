@@ -7,7 +7,7 @@
 @mixin material-icon($name, $pseudo: 'before') {
   $codepoint: map-get($material-icons-codepoints, $name);
 
-  &:#{$pseudo} {
+  &::#{$pseudo} {
     content: material-icons-content($codepoint);
   }
 }
