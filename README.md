@@ -1,4 +1,4 @@
-# Material Icons
+# [material-icons](https://github.com/marella/material-icons) [![Downloads](https://img.shields.io/npm/dm/material-icons)](https://www.npmjs.com/package/material-icons)
 
 Material design icon font and CSS framework for self hosting the icons.
 
