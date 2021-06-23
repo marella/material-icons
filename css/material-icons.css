@@ -1687,6 +1687,10 @@
   content: "\e2c3";
 }
 
+.mi-cloudy-snowing::before {
+  content: "\e810";
+}
+
 .mi-co2::before {
   content: "\e7b0";
 }
@@ -2991,6 +2995,10 @@
   content: "\f00f";
 }
 
+.mi-foggy::before {
+  content: "\e818";
+}
+
 .mi-folder::before {
   content: "\e2c7";
 }
@@ -3701,6 +3709,10 @@
 
 .mi-interests::before {
   content: "\e7c8";
+}
+
+.mi-interpreter-mode::before {
+  content: "\e83b";
 }
 
 .mi-inventory::before {
@@ -5379,6 +5391,14 @@
   content: "\e065";
 }
 
+.mi-playlist-add-check-circle::before {
+  content: "\e7e6";
+}
+
+.mi-playlist-add-circle::before {
+  content: "\e7e5";
+}
+
 .mi-playlist-play::before {
   content: "\e05f";
 }
@@ -6503,6 +6523,10 @@
   content: "\e513";
 }
 
+.mi-snowing::before {
+  content: "\e80f";
+}
+
 .mi-snowmobile::before {
   content: "\e503";
 }
@@ -6537,6 +6561,10 @@
 
 .mi-south::before {
   content: "\f1e3";
+}
+
+.mi-south-america::before {
+  content: "\e7e4";
 }
 
 .mi-south-east::before {
@@ -6821,6 +6849,14 @@
 
 .mi-summarize::before {
   content: "\f071";
+}
+
+.mi-sunny::before {
+  content: "\e81a";
+}
+
+.mi-sunny-snowing::before {
+  content: "\e819";
 }
 
 .mi-superscript::before {
@@ -7341,6 +7377,10 @@
 
 .mi-usb-off::before {
   content: "\e4fa";
+}
+
+.mi-vaccines::before {
+  content: "\e138";
 }
 
 .mi-verified::before {
