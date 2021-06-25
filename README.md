@@ -114,7 +114,7 @@ See [demo].
 Material design icons are created by [Google](https://github.com/google/material-design-icons#license).
 
 > We have made these icons available for you to incorporate into your products under the [Apache License Version 2.0][license]. Feel free to remix and re-share these icons and documentation in your products.
-We'd love attribution in your app's *about* screen, but it's not required. The only thing we ask is that you not re-sell these icons.
+We'd love attribution in your app's *about* screen, but it's not required.
 
 [releases]: https://github.com/marella/material-icons/releases
 [license]: https://github.com/marella/material-icons/blob/main/LICENSE
