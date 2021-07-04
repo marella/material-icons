@@ -2,6 +2,8 @@
 
 Material design icon font and CSS framework for self hosting the icons.
 
+> For SVGs, see [`@material-design-icons/svg`](https://www.npmjs.com/package/@material-design-icons/svg)
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Available Icons](#available-icons)
