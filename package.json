@@ -2,13 +2,15 @@
   "name": "material-icons",
   "version": "0.7.4",
   "description": "Material design icon font and CSS framework for self hosting the icons.",
+  "browser": "iconfont/material-icons.css",
+  "sass": "iconfont/material-icons.scss",
   "files": [
     "css/*.{css,scss}",
     "iconfont/*.{css,scss,woff,woff2}"
   ],
-  "browser": "iconfont/material-icons.css",
-  "sass": "iconfont/material-icons.scss",
   "scripts": {
+    "check": "npm run download:metadata -- --status",
+    "update": "npm run download && npm run build",
     "download": "npm run download:font && npm run download:metadata",
     "download:font": "npx @material-design-icons/scripts download font --to iconfont",
     "download:metadata": "npx @material-design-icons/scripts download metadata",
@@ -18,9 +20,9 @@
     "build:css:min": "sass --style compressed --no-source-map --no-error-css css/material-icons.scss:css/material-icons.min.css"
   },
   "devDependencies": {
-    "@material-design-icons/scripts": "^0.1.0",
-    "opentype.js": "^1.3.3",
-    "sass": "^1.34.0"
+    "@material-design-icons/scripts": "0.2.2",
+    "opentype.js": "1.3.3",
+    "sass": "1.35.1"
   },
   "license": "Apache-2.0",
   "repository": {
@@ -35,8 +37,9 @@
     "material-icons",
     "material-design-icons",
     "material-design",
-    "iconfont",
+    "material",
     "icons",
+    "iconfont",
     "font",
     "css",
     "sass"
