@@ -2903,6 +2903,10 @@
   content: "\ea10";
 }
 
+.mi-fitbit::before {
+  content: "\e82b";
+}
+
 .mi-fitness-center::before {
   content: "\eb43";
 }
@@ -3749,6 +3753,10 @@
 
 .mi-kayaking::before {
   content: "\e50c";
+}
+
+.mi-kebab-dining::before {
+  content: "\e842";
 }
 
 .mi-keyboard::before {
