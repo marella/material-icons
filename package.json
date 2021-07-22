@@ -1,7 +1,7 @@
 {
   "name": "material-icons",
   "version": "0.7.7",
-  "description": "Material design icon font and CSS framework for self hosting the icons.",
+  "description": "Latest icon fonts and CSS for self-hosting material design icons.",
   "browser": "iconfont/material-icons.css",
   "sass": "iconfont/material-icons.scss",
   "files": [

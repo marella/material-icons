@@ -1,6 +1,8 @@
 # [material-icons](https://github.com/marella/material-icons) [![Downloads](https://img.shields.io/npm/dm/material-icons)](https://www.npmjs.com/package/material-icons)
 
-Material design icon font and CSS framework for self hosting the icons.
+Latest icon fonts and CSS for self-hosting material design icons.
+
+> This package is automatically updated, so it will always have the latest icons from Google.
 
 > For SVGs, see [`@material-design-icons/svg`](https://www.npmjs.com/package/@material-design-icons/svg)
 
@@ -15,6 +17,8 @@ Install the [latest version][releases] using:
 ```sh
 npm install material-icons@latest
 ```
+
+> **Note:** If you are upgrading from 0.x to 1.x see the [1.0.0 release notes](https://github.com/marella/material-icons/releases/tag/v1.0.0).
 
 ## Usage
 
