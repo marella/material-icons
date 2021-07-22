@@ -19,7 +19,7 @@
   );
 
   /**
-   * @deprecated Use .#{$full-class-name} instead of .#{$class-name}
+   * @deprecated As of 1.0, use .#{$full-class-name} instead of .#{$class-name}
    */
   .#{$class-name} {
     @include material-icons-font-class($font-family);

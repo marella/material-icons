@@ -1,5 +1,5 @@
 /**
- * @deprecated Use .material-icons instead of .mi
+ * @deprecated As of 1.0, use .material-icons instead of .mi
  */
 .mi {
   font-family: "Material Icons";
@@ -20,7 +20,7 @@
 }
 
 /**
- * @deprecated Use .material-icons-outlined instead of .mi-outlined
+ * @deprecated As of 1.0, use .material-icons-outlined instead of .mi-outlined
  */
 .mi-outlined {
   font-family: "Material Icons Outlined";
@@ -41,7 +41,7 @@
 }
 
 /**
- * @deprecated Use .material-icons-round instead of .mi-round
+ * @deprecated As of 1.0, use .material-icons-round instead of .mi-round
  */
 .mi-round {
   font-family: "Material Icons Round";
@@ -62,7 +62,7 @@
 }
 
 /**
- * @deprecated Use .material-icons-sharp instead of .mi-sharp
+ * @deprecated As of 1.0, use .material-icons-sharp instead of .mi-sharp
  */
 .mi-sharp {
   font-family: "Material Icons Sharp";
@@ -83,7 +83,7 @@
 }
 
 /**
- * @deprecated Use .material-icons-two-tone instead of .mi-two-tone
+ * @deprecated As of 1.0, use .material-icons-two-tone instead of .mi-two-tone
  */
 .mi-two-tone {
   font-family: "Material Icons Two Tone";
