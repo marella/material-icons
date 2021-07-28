@@ -3603,6 +3603,10 @@
   content: "\e88d";
 }
 
+.mi-hub::before {
+  content: "\e9f4";
+}
+
 .mi-hvac::before {
   content: "\f10e";
 }
@@ -6627,6 +6631,10 @@
   content: "\f06d";
 }
 
+.mi-spoke::before {
+  content: "\e9a7";
+}
+
 .mi-sports::before {
   content: "\ea30";
 }
@@ -7205,6 +7213,10 @@
 
 .mi-toggle-on::before {
   content: "\e9f6";
+}
+
+.mi-token::before {
+  content: "\ea25";
 }
 
 .mi-toll::before {
