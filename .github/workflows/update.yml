@@ -2,7 +2,7 @@ name: Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+    - cron: '23 1 * * *' # Runs at 01:23 UTC every day
   workflow_dispatch:
     inputs:
       force:
@@ -28,6 +28,7 @@ jobs:
         run: |
           force="${{ github.event.inputs.force }}"
           dry="${{ github.event.inputs.dry }}"
+          bump="patch"
 
           # Check for Updates
           if npm run check; then
@@ -35,7 +36,7 @@ jobs:
               exit 0 # exit if there are no changes
             fi
           elif [ $? -ge 4 ]; then
-            exit 1 # exit if icons are removed
+            bump="minor" # icons are removed from metadata API
           fi
 
           # Update
@@ -43,7 +44,7 @@ jobs:
           git commit -am 'Auto Update' || [ "$force" = "1" ] || exit 1
 
           # Bump Version
-          npm version patch
+          npm version "$bump"
 
           # Push
           if [ "$dry" = "1" ]; then
