@@ -499,6 +499,10 @@
   content: "\ef3d";
 }
 
+.mi-adobe::before {
+  content: "\ea96";
+}
+
 .mi-ads-click::before {
   content: "\e762";
 }
@@ -689,6 +693,10 @@
 
 .mi-app-settings-alt::before {
   content: "\ef41";
+}
+
+.mi-apple::before {
+  content: "\ea80";
 }
 
 .mi-approval::before {
@@ -1827,8 +1835,16 @@
   content: "\e14f";
 }
 
+.mi-content-paste-go::before {
+  content: "\ea8e";
+}
+
 .mi-content-paste-off::before {
   content: "\e4f8";
+}
+
+.mi-content-paste-search::before {
+  content: "\ea9b";
 }
 
 .mi-control-camera::before {
@@ -2181,6 +2197,10 @@
 
 .mi-disc-full::before {
   content: "\e610";
+}
+
+.mi-discord::before {
+  content: "\ea6c";
 }
 
 .mi-dnd-forwardslash::before {
@@ -3033,6 +3053,10 @@
 
 .mi-food-bank::before {
   content: "\f1f2";
+}
+
+.mi-forest::before {
+  content: "\ea99";
 }
 
 .mi-format-align-center::before {
@@ -3947,6 +3971,10 @@
   content: "\e90f";
 }
 
+.mi-line-axis::before {
+  content: "\ea9a";
+}
+
 .mi-line-style::before {
   content: "\e919";
 }
@@ -4335,6 +4363,10 @@
   content: "\f033";
 }
 
+.mi-medication-liquid::before {
+  content: "\ea87";
+}
+
 .mi-meeting-room::before {
   content: "\eb4f";
 }
@@ -4481,6 +4513,10 @@
 
 .mi-monitor::before {
   content: "\ef5b";
+}
+
+.mi-monitor-heart::before {
+  content: "\eaa2";
 }
 
 .mi-monitor-weight::before {
@@ -5059,6 +5095,10 @@
   content: "\ef63";
 }
 
+.mi-paypal::before {
+  content: "\ea8d";
+}
+
 .mi-pedal-bike::before {
   content: "\eb29";
 }
@@ -5355,6 +5395,10 @@
   content: "\e9ce";
 }
 
+.mi-pix::before {
+  content: "\eaa3";
+}
+
 .mi-place::before {
   content: "\e55f";
 }
@@ -5599,6 +5643,10 @@
   content: "\f04c";
 }
 
+.mi-quora::before {
+  content: "\ea98";
+}
+
 .mi-r-mobiledata::before {
   content: "\f04d";
 }
@@ -5677,6 +5725,10 @@
 
 .mi-recycling::before {
   content: "\e760";
+}
+
+.mi-reddit::before {
+  content: "\eaa0";
 }
 
 .mi-redeem::before {
@@ -6231,6 +6283,10 @@
   content: "\e8ca";
 }
 
+.mi-shopify::before {
+  content: "\ea9d";
+}
+
 .mi-shopping-bag::before {
   content: "\f1cc";
 }
@@ -6521,6 +6577,10 @@
 
 .mi-sms-failed::before {
   content: "\e626";
+}
+
+.mi-snapchat::before {
+  content: "\ea6e";
 }
 
 .mi-snippet-folder::before {
@@ -7063,6 +7123,10 @@
   content: "\ef74";
 }
 
+.mi-telegram::before {
+  content: "\ea6b";
+}
+
 .mi-terrain::before {
   content: "\e564";
 }
@@ -7153,6 +7217,10 @@
 
 .mi-thumbs-up-down::before {
   content: "\e8dd";
+}
+
+.mi-tiktok::before {
+  content: "\ea7e";
 }
 
 .mi-time-to-leave::before {
@@ -7723,12 +7791,20 @@
   content: "\e595";
 }
 
+.mi-wechat::before {
+  content: "\ea81";
+}
+
 .mi-weekend::before {
   content: "\e16b";
 }
 
 .mi-west::before {
   content: "\f1e6";
+}
+
+.mi-whatsapp::before {
+  content: "\ea9c";
 }
 
 .mi-whatshot::before {
@@ -7797,6 +7873,14 @@
 
 .mi-wine-bar::before {
   content: "\f1e8";
+}
+
+.mi-woo-commerce::before {
+  content: "\ea6d";
+}
+
+.mi-wordpress::before {
+  content: "\ea9f";
 }
 
 .mi-work::before {
