@@ -739,6 +739,14 @@
   content: "\f181";
 }
 
+.mi-arrow-circle-left::before {
+  content: "\eaa7";
+}
+
+.mi-arrow-circle-right::before {
+  content: "\eaaa";
+}
+
 .mi-arrow-circle-up::before {
   content: "\f182";
 }
@@ -1507,6 +1515,10 @@
   content: "\efec";
 }
 
+.mi-castle::before {
+  content: "\eab1";
+}
+
 .mi-catching-pokemon::before {
   content: "\e508";
 }
@@ -1617,6 +1629,10 @@
 
 .mi-chrome-reader-mode::before {
   content: "\e86d";
+}
+
+.mi-church::before {
+  content: "\eaae";
 }
 
 .mi-circle::before {
@@ -1857,6 +1873,10 @@
 
 .mi-control-point-duplicate::before {
   content: "\e3bb";
+}
+
+.mi-cookie::before {
+  content: "\eaac";
 }
 
 .mi-copy::before {
@@ -3159,6 +3179,10 @@
   content: "\e249";
 }
 
+.mi-fort::before {
+  content: "\eaad";
+}
+
 .mi-forum::before {
   content: "\e0bf";
 }
@@ -3525,6 +3549,10 @@
 
 .mi-history-toggle-off::before {
   content: "\f17d";
+}
+
+.mi-hive::before {
+  content: "\eaa6";
 }
 
 .mi-holiday-village::before {
@@ -4553,6 +4581,10 @@
 
 .mi-more-vert::before {
   content: "\e5d4";
+}
+
+.mi-mosque::before {
+  content: "\eab2";
 }
 
 .mi-motion-photos-auto::before {
@@ -5587,6 +5619,10 @@
   content: "\f232";
 }
 
+.mi-punch-clock::before {
+  content: "\eaa8";
+}
+
 .mi-push-pin::before {
   content: "\f10d";
 }
@@ -5913,6 +5949,10 @@
 
 .mi-rotate-90-degrees-ccw::before {
   content: "\e418";
+}
+
+.mi-rotate-90-degrees-cw::before {
+  content: "\eaab";
 }
 
 .mi-rotate-left::before {
@@ -6269,6 +6309,10 @@
 
 .mi-shield::before {
   content: "\e9e0";
+}
+
+.mi-shield-moon::before {
+  content: "\eaa9";
 }
 
 .mi-shop::before {
@@ -7019,6 +7063,10 @@
   content: "\e41f";
 }
 
+.mi-synagogue::before {
+  content: "\eab0";
+}
+
 .mi-sync::before {
   content: "\e627";
 }
@@ -7125,6 +7173,14 @@
 
 .mi-telegram::before {
   content: "\ea6b";
+}
+
+.mi-temple-buddhist::before {
+  content: "\eab3";
+}
+
+.mi-temple-hindu::before {
+  content: "\eaaf";
 }
 
 .mi-terrain::before {
