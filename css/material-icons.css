@@ -1471,6 +1471,10 @@
   content: "\ea39";
 }
 
+.mi-candlestick-chart::before {
+  content: "\ead4";
+}
+
 .mi-car-rental::before {
   content: "\ea55";
 }
@@ -2003,8 +2007,16 @@
   content: "\e99b";
 }
 
+.mi-data-array::before {
+  content: "\ead1";
+}
+
 .mi-data-exploration::before {
   content: "\e76f";
+}
+
+.mi-data-object::before {
+  content: "\ead3";
 }
 
 .mi-data-saver-off::before {
@@ -2117,6 +2129,10 @@
 
 .mi-dialpad::before {
   content: "\e0bc";
+}
+
+.mi-diamond::before {
+  content: "\ead5";
 }
 
 .mi-dining::before {
@@ -2481,6 +2497,14 @@
 
 .mi-edit-road::before {
   content: "\ef4d";
+}
+
+.mi-egg::before {
+  content: "\eacc";
+}
+
+.mi-egg-alt::before {
+  content: "\eac8";
 }
 
 .mi-eject::before {
@@ -3487,6 +3511,10 @@
   content: "\f104";
 }
 
+.mi-heart-broken::before {
+  content: "\eac2";
+}
+
 .mi-height::before {
   content: "\ea16";
 }
@@ -3755,6 +3783,10 @@
   content: "\e250";
 }
 
+.mi-insert-page-break::before {
+  content: "\eaca";
+}
+
 .mi-insert-photo::before {
   content: "\e251";
 }
@@ -3815,6 +3847,10 @@
   content: "\e842";
 }
 
+.mi-key::before {
+  content: "\e73c";
+}
+
 .mi-keyboard::before {
   content: "\e312";
 }
@@ -3849,6 +3885,22 @@
 
 .mi-keyboard-control::before {
   content: "\e5d3";
+}
+
+.mi-keyboard-double-arrow-down::before {
+  content: "\ead0";
+}
+
+.mi-keyboard-double-arrow-left::before {
+  content: "\eac3";
+}
+
+.mi-keyboard-double-arrow-right::before {
+  content: "\eac9";
+}
+
+.mi-keyboard-double-arrow-up::before {
+  content: "\eacf";
 }
 
 .mi-keyboard-hide::before {
@@ -4309,6 +4361,10 @@
 
 .mi-male::before {
   content: "\e58e";
+}
+
+.mi-man::before {
+  content: "\e4eb";
 }
 
 .mi-manage-accounts::before {
@@ -4931,6 +4987,10 @@
   content: "\e1bd";
 }
 
+.mi-numbers::before {
+  content: "\eac7";
+}
+
 .mi-offline-bolt::before {
   content: "\e932";
 }
@@ -5261,6 +5321,10 @@
 
 .mi-pets::before {
   content: "\e91d";
+}
+
+.mi-phishing::before {
+  content: "\ead7";
 }
 
 .mi-phone::before {
@@ -5965,6 +6029,10 @@
 
 .mi-rounded-corner::before {
   content: "\e920";
+}
+
+.mi-route::before {
+  content: "\eacd";
 }
 
 .mi-router::before {
@@ -7115,8 +7183,16 @@
   content: "\e8d9";
 }
 
+.mi-table-bar::before {
+  content: "\ead2";
+}
+
 .mi-table-chart::before {
   content: "\e265";
+}
+
+.mi-table-restaurant::before {
+  content: "\eac6";
 }
 
 .mi-table-rows::before {
@@ -7929,6 +8005,10 @@
 
 .mi-wine-bar::before {
   content: "\f1e8";
+}
+
+.mi-woman::before {
+  content: "\e13e";
 }
 
 .mi-woo-commerce::before {
