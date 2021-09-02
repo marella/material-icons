@@ -491,6 +491,10 @@
   content: "\ef3c";
 }
 
+.mi-adf-scanner::before {
+  content: "\eada";
+}
+
 .mi-adjust::before {
   content: "\e39e";
 }
@@ -2775,6 +2779,10 @@
   content: "\e87e";
 }
 
+.mi-fax::before {
+  content: "\ead8";
+}
+
 .mi-featured-play-list::before {
   content: "\e06d";
 }
@@ -4285,6 +4293,10 @@
 
 .mi-login::before {
   content: "\ea77";
+}
+
+.mi-logo-dev::before {
+  content: "\ead6";
 }
 
 .mi-logout::before {
@@ -6231,6 +6243,10 @@
   content: "\ea0c";
 }
 
+.mi-send-time-extension::before {
+  content: "\eadb";
+}
+
 .mi-send-to-mobile::before {
   content: "\f05c";
 }
@@ -7989,6 +8005,10 @@
 
 .mi-wifi-tethering::before {
   content: "\e1e2";
+}
+
+.mi-wifi-tethering-error::before {
+  content: "\ead9";
 }
 
 .mi-wifi-tethering-error-rounded::before {
