@@ -699,6 +699,10 @@
   content: "\ef41";
 }
 
+.mi-app-shortcut::before {
+  content: "\eae4";
+}
+
 .mi-apple::before {
   content: "\ea80";
 }
@@ -3891,8 +3895,20 @@
   content: "\e318";
 }
 
+.mi-keyboard-command::before {
+  content: "\eae0";
+}
+
+.mi-keyboard-command-key::before {
+  content: "\eae7";
+}
+
 .mi-keyboard-control::before {
   content: "\e5d3";
+}
+
+.mi-keyboard-control-key::before {
+  content: "\eae6";
 }
 
 .mi-keyboard-double-arrow-down::before {
@@ -3913,6 +3929,14 @@
 
 .mi-keyboard-hide::before {
   content: "\e31a";
+}
+
+.mi-keyboard-option::before {
+  content: "\eadf";
+}
+
+.mi-keyboard-option-key::before {
+  content: "\eae8";
 }
 
 .mi-keyboard-return::before {
@@ -4289,6 +4313,10 @@
 
 .mi-lock-outline::before {
   content: "\e899";
+}
+
+.mi-lock-reset::before {
+  content: "\eade";
 }
 
 .mi-login::before {
@@ -6943,6 +6971,10 @@
   content: "\e8d0";
 }
 
+.mi-start::before {
+  content: "\e089";
+}
+
 .mi-stay-current-landscape::before {
   content: "\e0d3";
 }
@@ -7279,12 +7311,20 @@
   content: "\e564";
 }
 
+.mi-text-decrease::before {
+  content: "\eadd";
+}
+
 .mi-text-fields::before {
   content: "\e262";
 }
 
 .mi-text-format::before {
   content: "\e165";
+}
+
+.mi-text-increase::before {
+  content: "\eae2";
 }
 
 .mi-text-rotate-up::before {
@@ -7861,6 +7901,10 @@
 
 .mi-watch-later::before {
   content: "\e924";
+}
+
+.mi-watch-off::before {
+  content: "\eae3";
 }
 
 .mi-water::before {
