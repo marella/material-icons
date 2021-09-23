@@ -1856,7 +1856,6 @@
   "wifi_protected_setup": 12,
   "wifi_tethering": 12,
   "wifi_tethering_error": 3,
-  "wifi_tethering_error_rounded": 9,
   "wifi_tethering_off": 10,
   "window": 9,
   "wine_bar": 6,
