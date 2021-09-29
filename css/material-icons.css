@@ -967,6 +967,10 @@
   content: "\ea53";
 }
 
+.mi-balance::before {
+  content: "\eaf6";
+}
+
 .mi-balcony::before {
   content: "\e58f";
 }
@@ -1731,6 +1735,10 @@
   content: "\e7b0";
 }
 
+.mi-co-present::before {
+  content: "\eaf0";
+}
+
 .mi-code::before {
   content: "\e86f";
 }
@@ -1773,6 +1781,10 @@
 
 .mi-comments-disabled::before {
   content: "\e7a2";
+}
+
+.mi-commit::before {
+  content: "\eaf5";
 }
 
 .mi-commute::before {
@@ -1993,6 +2005,34 @@
 
 .mi-cruelty-free::before {
   content: "\e799";
+}
+
+.mi-currency-franc::before {
+  content: "\eafa";
+}
+
+.mi-currency-lira::before {
+  content: "\eaef";
+}
+
+.mi-currency-pound::before {
+  content: "\eaf1";
+}
+
+.mi-currency-ruble::before {
+  content: "\eaec";
+}
+
+.mi-currency-rupee::before {
+  content: "\eaf7";
+}
+
+.mi-currency-yen::before {
+  content: "\eafb";
+}
+
+.mi-currency-yuan::before {
+  content: "\eaf9";
 }
 
 .mi-cut::before {
@@ -2851,6 +2891,10 @@
   content: "\e4fe";
 }
 
+.mi-file-open::before {
+  content: "\eaf3";
+}
+
 .mi-file-present::before {
   content: "\ea0e";
 }
@@ -2989,6 +3033,10 @@
 
 .mi-flag::before {
   content: "\e153";
+}
+
+.mi-flag-circle::before {
+  content: "\eaf8";
 }
 
 .mi-flaky::before {
@@ -3851,6 +3899,22 @@
   content: "\e3f6";
 }
 
+.mi-join-full::before {
+  content: "\eaeb";
+}
+
+.mi-join-inner::before {
+  content: "\eaf4";
+}
+
+.mi-join-left::before {
+  content: "\eaf2";
+}
+
+.mi-join-right::before {
+  content: "\eaea";
+}
+
 .mi-kayaking::before {
   content: "\e50c";
 }
@@ -3895,10 +3959,6 @@
   content: "\e318";
 }
 
-.mi-keyboard-command::before {
-  content: "\eae0";
-}
-
 .mi-keyboard-command-key::before {
   content: "\eae7";
 }
@@ -3929,10 +3989,6 @@
 
 .mi-keyboard-hide::before {
   content: "\e31a";
-}
-
-.mi-keyboard-option::before {
-  content: "\eadf";
 }
 
 .mi-keyboard-option-key::before {
@@ -6895,6 +6951,10 @@
   content: "\ea34";
 }
 
+.mi-sports-martial-arts::before {
+  content: "\eae9";
+}
+
 .mi-sports-mma::before {
   content: "\ea2c";
 }
@@ -7193,6 +7253,10 @@
 
 .mi-sync-disabled::before {
   content: "\e628";
+}
+
+.mi-sync-lock::before {
+  content: "\eaee";
 }
 
 .mi-sync-problem::before {
