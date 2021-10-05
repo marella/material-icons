@@ -1723,6 +1723,10 @@
   content: "\e2c2";
 }
 
+.mi-cloud-sync::before {
+  content: "\eb5a";
+}
+
 .mi-cloud-upload::before {
   content: "\e2c3";
 }
@@ -1885,6 +1889,10 @@
 
 .mi-content-paste-search::before {
   content: "\ea9b";
+}
+
+.mi-contrast::before {
+  content: "\eb37";
 }
 
 .mi-control-camera::before {
@@ -2951,6 +2959,10 @@
   content: "\ef4f";
 }
 
+.mi-filter-alt-off::before {
+  content: "\eb32";
+}
+
 .mi-filter-b-and-w::before {
   content: "\e3db";
 }
@@ -2977,6 +2989,10 @@
 
 .mi-filter-list-alt::before {
   content: "\e94e";
+}
+
+.mi-filter-list-off::before {
+  content: "\eb57";
 }
 
 .mi-filter-none::before {
@@ -3131,6 +3147,10 @@
   content: "\e2c7";
 }
 
+.mi-folder-delete::before {
+  content: "\eb34";
+}
+
 .mi-folder-open::before {
   content: "\e2c8";
 }
@@ -3141,6 +3161,10 @@
 
 .mi-folder-special::before {
   content: "\e617";
+}
+
+.mi-folder-zip::before {
+  content: "\eb2c";
 }
 
 .mi-follow-the-signs::before {
@@ -3595,6 +3619,10 @@
   content: "\f021";
 }
 
+.mi-hexagon::before {
+  content: "\eb39";
+}
+
 .mi-hide-image::before {
   content: "\f022";
 }
@@ -3959,6 +3987,10 @@
   content: "\e318";
 }
 
+.mi-keyboard-command::before {
+  content: "\eae0";
+}
+
 .mi-keyboard-command-key::before {
   content: "\eae7";
 }
@@ -3989,6 +4021,10 @@
 
 .mi-keyboard-hide::before {
   content: "\e31a";
+}
+
+.mi-keyboard-option::before {
+  content: "\eadf";
 }
 
 .mi-keyboard-option-key::before {
@@ -4037,6 +4073,10 @@
 
 .mi-label-outline::before {
   content: "\e893";
+}
+
+.mi-lan::before {
+  content: "\eb2f";
 }
 
 .mi-landscape::before {
@@ -5299,6 +5339,10 @@
   content: "\f1bb";
 }
 
+.mi-pentagon::before {
+  content: "\eb50";
+}
+
 .mi-people::before {
   content: "\e7fb";
 }
@@ -5309,6 +5353,10 @@
 
 .mi-people-outline::before {
   content: "\e7fc";
+}
+
+.mi-percent::before {
+  content: "\eb58";
 }
 
 .mi-perm-camera-mic::before {
@@ -5581,6 +5629,10 @@
 
 .mi-pin-invoke::before {
   content: "\e763";
+}
+
+.mi-pinch::before {
+  content: "\eb38";
 }
 
 .mi-pivot-table-chart::before {
@@ -5919,6 +5971,10 @@
   content: "\e91f";
 }
 
+.mi-rectangle::before {
+  content: "\eb54";
+}
+
 .mi-recycling::before {
   content: "\e760";
 }
@@ -6185,6 +6241,10 @@
 
 .mi-satellite::before {
   content: "\e562";
+}
+
+.mi-satellite-alt::before {
+  content: "\eb3a";
 }
 
 .mi-save::before {
@@ -6983,6 +7043,10 @@
   content: "\ea31";
 }
 
+.mi-square::before {
+  content: "\eb36";
+}
+
 .mi-square-foot::before {
   content: "\ea49";
 }
@@ -7209,6 +7273,42 @@
 
 .mi-swipe::before {
   content: "\e9ec";
+}
+
+.mi-swipe-down::before {
+  content: "\eb53";
+}
+
+.mi-swipe-down-alt::before {
+  content: "\eb30";
+}
+
+.mi-swipe-left::before {
+  content: "\eb59";
+}
+
+.mi-swipe-left-alt::before {
+  content: "\eb33";
+}
+
+.mi-swipe-right::before {
+  content: "\eb52";
+}
+
+.mi-swipe-right-alt::before {
+  content: "\eb56";
+}
+
+.mi-swipe-up::before {
+  content: "\eb2e";
+}
+
+.mi-swipe-up-alt::before {
+  content: "\eb35";
+}
+
+.mi-swipe-vertical::before {
+  content: "\eb51";
 }
 
 .mi-switch-access-shortcut::before {
@@ -8099,6 +8199,10 @@
   content: "\f085";
 }
 
+.mi-wifi-find::before {
+  content: "\eb31";
+}
+
 .mi-wifi-lock::before {
   content: "\e1e1";
 }
@@ -8197,6 +8301,10 @@
 
 .mi-zoom-in::before {
   content: "\e8ff";
+}
+
+.mi-zoom-in-map::before {
+  content: "\eb2d";
 }
 
 .mi-zoom-out::before {
