@@ -31,11 +31,14 @@ jobs:
           bump="patch"
 
           # Check for Updates
-          if npm run check; then
+          status=0
+          npm run check || status=$?
+          if [ $status -eq 0 ] || [ $status -eq 4 ]; then
             if [ "$force" != "1" ]; then
-              exit 0 # exit if there are no changes
+              exit 0 # exit if there are no changes or if icons are only removed
             fi
-          elif [ $? -ge 4 ]; then
+          fi
+          if [ $status -ge 4 ]; then
             bump="minor" # icons are removed from metadata API
           fi
 
