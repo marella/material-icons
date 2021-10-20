@@ -855,6 +855,10 @@
   content: "\e3a0";
 }
 
+.mi-assured-workload::before {
+  content: "\eb6f";
+}
+
 .mi-atm::before {
   content: "\e573";
 }
@@ -1091,6 +1095,10 @@
   content: "\ef44";
 }
 
+.mi-bedtime-off::before {
+  content: "\eb76";
+}
+
 .mi-beenhere::before {
   content: "\e52d";
 }
@@ -1249,6 +1257,10 @@
 
 .mi-border-vertical::before {
   content: "\e233";
+}
+
+.mi-boy::before {
+  content: "\eb67";
 }
 
 .mi-branding-watermark::before {
@@ -2015,6 +2027,10 @@
   content: "\e799";
 }
 
+.mi-currency-exchange::before {
+  content: "\eb70";
+}
+
 .mi-currency-franc::before {
   content: "\eafa";
 }
@@ -2089,6 +2105,10 @@
 
 .mi-date-range::before {
   content: "\e916";
+}
+
+.mi-deblur::before {
+  content: "\eb77";
 }
 
 .mi-deck::before {
@@ -2359,6 +2379,10 @@
   content: "\e7ee";
 }
 
+.mi-domain-add::before {
+  content: "\eb62";
+}
+
 .mi-domain-disabled::before {
   content: "\e0ef";
 }
@@ -2569,6 +2593,10 @@
 
 .mi-elderly::before {
   content: "\f21a";
+}
+
+.mi-elderly-woman::before {
+  content: "\eb69";
 }
 
 .mi-electric-bike::before {
@@ -3251,6 +3279,10 @@
   content: "\e267";
 }
 
+.mi-format-overline::before {
+  content: "\eb65";
+}
+
 .mi-format-paint::before {
   content: "\e243";
 }
@@ -3385,6 +3417,10 @@
 
 .mi-gif-box::before {
   content: "\e7a3";
+}
+
+.mi-girl::before {
+  content: "\eb68";
 }
 
 .mi-gite::before {
@@ -3881,6 +3917,14 @@
 
 .mi-insights::before {
   content: "\f092";
+}
+
+.mi-install-desktop::before {
+  content: "\eb71";
+}
+
+.mi-install-mobile::before {
+  content: "\eb72";
 }
 
 .mi-integration-instructions::before {
@@ -4807,8 +4851,16 @@
   content: "\e323";
 }
 
+.mi-move-down::before {
+  content: "\eb61";
+}
+
 .mi-move-to-inbox::before {
   content: "\e168";
+}
+
+.mi-move-up::before {
+  content: "\eb64";
 }
 
 .mi-movie::before {
@@ -6255,12 +6307,20 @@
   content: "\e171";
 }
 
+.mi-save-as::before {
+  content: "\eb60";
+}
+
 .mi-saved-search::before {
   content: "\ea11";
 }
 
 .mi-savings::before {
   content: "\e2eb";
+}
+
+.mi-scale::before {
+  content: "\eb5f";
 }
 
 .mi-scanner::before {
@@ -7049,6 +7109,10 @@
 
 .mi-square-foot::before {
   content: "\ea49";
+}
+
+.mi-ssid-chart::before {
+  content: "\eb66";
 }
 
 .mi-stacked-bar-chart::before {
@@ -7927,8 +7991,20 @@
   content: "\e42a";
 }
 
+.mi-view-comfy-alt::before {
+  content: "\eb73";
+}
+
 .mi-view-compact::before {
   content: "\e42b";
+}
+
+.mi-view-compact-alt::before {
+  content: "\eb74";
+}
+
+.mi-view-cozy::before {
+  content: "\eb75";
 }
 
 .mi-view-day::before {
@@ -8199,6 +8275,10 @@
   content: "\f085";
 }
 
+.mi-wifi-channel::before {
+  content: "\eb6a";
+}
+
 .mi-wifi-find::before {
   content: "\eb31";
 }
@@ -8209,6 +8289,10 @@
 
 .mi-wifi-off::before {
   content: "\e648";
+}
+
+.mi-wifi-password::before {
+  content: "\eb6b";
 }
 
 .mi-wifi-protected-setup::before {
