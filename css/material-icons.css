@@ -103,6 +103,10 @@
   font-feature-settings: "liga";
 }
 
+.mi-123::before {
+  content: "\eb8d";
+}
+
 .mi-360::before {
   content: "\e577";
 }
@@ -323,6 +327,10 @@
   content: "\e979";
 }
 
+.mi-abc::before {
+  content: "\eb94";
+}
+
 .mi-ac-unit::before {
   content: "\eb3b";
 }
@@ -413,6 +421,10 @@
 
 .mi-add-call::before {
   content: "\e0e8";
+}
+
+.mi-add-card::before {
+  content: "\eb86";
 }
 
 .mi-add-chart::before {
@@ -885,6 +897,10 @@
 
 .mi-attribution::before {
   content: "\efdb";
+}
+
+.mi-audio-file::before {
+  content: "\eb82";
 }
 
 .mi-audiotrack::before {
@@ -2027,6 +2043,10 @@
   content: "\e799";
 }
 
+.mi-css::before {
+  content: "\eb93";
+}
+
 .mi-currency-exchange::before {
   content: "\eb70";
 }
@@ -2209,6 +2229,10 @@
 
 .mi-diamond::before {
   content: "\ead5";
+}
+
+.mi-difference::before {
+  content: "\eb7d";
 }
 
 .mi-dining::before {
@@ -2731,6 +2755,10 @@
   content: "\e616";
 }
 
+.mi-event-repeat::before {
+  content: "\eb7b";
+}
+
 .mi-event-seat::before {
   content: "\e903";
 }
@@ -3177,6 +3205,10 @@
 
 .mi-folder-delete::before {
   content: "\eb34";
+}
+
+.mi-folder-off::before {
+  content: "\eb83";
 }
 
 .mi-folder-open::before {
@@ -3707,6 +3739,14 @@
   content: "\eaa6";
 }
 
+.mi-hls::before {
+  content: "\eb8a";
+}
+
+.mi-hls-off::before {
+  content: "\eb8c";
+}
+
 .mi-holiday-village::before {
   content: "\e58a";
 }
@@ -3797,6 +3837,10 @@
 
 .mi-how-to-vote::before {
   content: "\e175";
+}
+
+.mi-html::before {
+  content: "\eb7e";
 }
 
 .mi-http::before {
@@ -3971,6 +4015,10 @@
   content: "\e3f6";
 }
 
+.mi-javascript::before {
+  content: "\eb7c";
+}
+
 .mi-join-full::before {
   content: "\eaeb";
 }
@@ -3997,6 +4045,10 @@
 
 .mi-key::before {
   content: "\e73c";
+}
+
+.mi-key-off::before {
+  content: "\eb84";
 }
 
 .mi-keyboard::before {
@@ -4991,6 +5043,10 @@
   content: "\e031";
 }
 
+.mi-newspaper::before {
+  content: "\eb81";
+}
+
 .mi-next-plan::before {
   content: "\ef5d";
 }
@@ -5635,6 +5691,10 @@
   content: "\e434";
 }
 
+.mi-php::before {
+  content: "\eb8f";
+}
+
 .mi-piano::before {
   content: "\e521";
 }
@@ -5753,6 +5813,10 @@
 
 .mi-playlist-play::before {
   content: "\e05f";
+}
+
+.mi-playlist-remove::before {
+  content: "\eb80";
 }
 
 .mi-plumbing::before {
@@ -5913,6 +5977,10 @@
 
 .mi-question-answer::before {
   content: "\e8af";
+}
+
+.mi-question-mark::before {
+  content: "\eb8b";
 }
 
 .mi-queue::before {
@@ -6631,6 +6699,10 @@
   content: "\e8cc";
 }
 
+.mi-shopping-cart-checkout::before {
+  content: "\eb88";
+}
+
 .mi-short-text::before {
   content: "\e261";
 }
@@ -6829,6 +6901,10 @@
 
 .mi-signal-wifi-statusbar-null::before {
   content: "\f067";
+}
+
+.mi-signpost::before {
+  content: "\eb91";
 }
 
 .mi-sim-card::before {
@@ -7121,6 +7197,10 @@
 
 .mi-stacked-line-chart::before {
   content: "\f22b";
+}
+
+.mi-stadium::before {
+  content: "\eb90";
 }
 
 .mi-stairs::before {
@@ -7535,6 +7615,10 @@
   content: "\eaaf";
 }
 
+.mi-terminal::before {
+  content: "\eb8e";
+}
+
 .mi-terrain::before {
   content: "\e564";
 }
@@ -7935,6 +8019,10 @@
   content: "\e04a";
 }
 
+.mi-video-file::before {
+  content: "\eb87";
+}
+
 .mi-video-label::before {
   content: "\e071";
 }
@@ -8019,6 +8107,10 @@
   content: "\e9fe";
 }
 
+.mi-view-kanban::before {
+  content: "\eb7f";
+}
+
 .mi-view-list::before {
   content: "\e8ef";
 }
@@ -8037,6 +8129,10 @@
 
 .mi-view-stream::before {
   content: "\e8f2";
+}
+
+.mi-view-timeline::before {
+  content: "\eb85";
 }
 
 .mi-view-week::before {
@@ -8097,6 +8193,10 @@
 
 .mi-vpn-key::before {
   content: "\e0da";
+}
+
+.mi-vpn-key-off::before {
+  content: "\eb7a";
 }
 
 .mi-vpn-lock::before {
@@ -8221,6 +8321,10 @@
 
 .mi-web-stories::before {
   content: "\e595";
+}
+
+.mi-webhook::before {
+  content: "\eb92";
 }
 
 .mi-wechat::before {
