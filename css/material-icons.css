@@ -1575,6 +1575,10 @@
   content: "\ea65";
 }
 
+.mi-cell-tower::before {
+  content: "\ebba";
+}
+
 .mi-cell-wifi::before {
   content: "\e0ec";
 }
@@ -2119,6 +2123,10 @@
   content: "\eff3";
 }
 
+.mi-data-thresholding::before {
+  content: "\eb9f";
+}
+
 .mi-data-usage::before {
   content: "\e1af";
 }
@@ -2159,12 +2167,28 @@
   content: "\ea72";
 }
 
+.mi-density-large::before {
+  content: "\eba9";
+}
+
+.mi-density-medium::before {
+  content: "\eb9e";
+}
+
+.mi-density-small::before {
+  content: "\eba8";
+}
+
 .mi-departure-board::before {
   content: "\e576";
 }
 
 .mi-description::before {
   content: "\e873";
+}
+
+.mi-deselect::before {
+  content: "\ebb6";
 }
 
 .mi-design-services::before {
@@ -2337,6 +2361,10 @@
 
 .mi-discord::before {
   content: "\ea6c";
+}
+
+.mi-display-settings::before {
+  content: "\eb97";
 }
 
 .mi-dnd-forwardslash::before {
@@ -2859,6 +2887,10 @@
   content: "\f0c5";
 }
 
+.mi-factory::before {
+  content: "\ebbc";
+}
+
 .mi-family-restroom::before {
   content: "\f1a2";
 }
@@ -3245,6 +3277,14 @@
 
 .mi-forest::before {
   content: "\ea99";
+}
+
+.mi-fork-left::before {
+  content: "\eba0";
+}
+
+.mi-fork-right::before {
+  content: "\ebac";
 }
 
 .mi-format-align-center::before {
@@ -4643,6 +4683,10 @@
   content: "\f18a";
 }
 
+.mi-mark-unread-chat-alt::before {
+  content: "\eb9d";
+}
+
 .mi-markunread::before {
   content: "\e159";
 }
@@ -4701,6 +4745,10 @@
 
 .mi-menu-open::before {
   content: "\e9bd";
+}
+
+.mi-merge::before {
+  content: "\eb98";
 }
 
 .mi-merge-type::before {
@@ -5335,6 +5383,10 @@
   content: "\e925";
 }
 
+.mi-pan-tool-alt::before {
+  content: "\ebb9";
+}
+
 .mi-panorama::before {
   content: "\e40b";
 }
@@ -5843,6 +5895,10 @@
   content: "\e801";
 }
 
+.mi-polyline::before {
+  content: "\ebbb";
+}
+
 .mi-polymer::before {
   content: "\e8ab";
 }
@@ -6049,6 +6105,14 @@
 
 .mi-ramen-dining::before {
   content: "\ea64";
+}
+
+.mi-ramp-left::before {
+  content: "\eb9c";
+}
+
+.mi-ramp-right::before {
+  content: "\eb96";
 }
 
 .mi-rate-review::before {
@@ -6267,6 +6331,14 @@
   content: "\e0d1";
 }
 
+.mi-rocket::before {
+  content: "\eba5";
+}
+
+.mi-rocket-launch::before {
+  content: "\eb9b";
+}
+
 .mi-roofing::before {
   content: "\f201";
 }
@@ -6297,6 +6369,14 @@
 
 .mi-rotate-right::before {
   content: "\e41a";
+}
+
+.mi-roundabout-left::before {
+  content: "\eb99";
+}
+
+.mi-roundabout-right::before {
+  content: "\eba3";
 }
 
 .mi-rounded-corner::before {
@@ -7295,6 +7375,10 @@
   content: "\f070";
 }
 
+.mi-straight::before {
+  content: "\eb95";
+}
+
 .mi-straighten::before {
   content: "\e41c";
 }
@@ -7887,6 +7971,30 @@
   content: "\f07d";
 }
 
+.mi-turn-left::before {
+  content: "\eba6";
+}
+
+.mi-turn-right::before {
+  content: "\ebab";
+}
+
+.mi-turn-sharp-left::before {
+  content: "\eba7";
+}
+
+.mi-turn-sharp-right::before {
+  content: "\ebaa";
+}
+
+.mi-turn-slight-left::before {
+  content: "\eba4";
+}
+
+.mi-turn-slight-right::before {
+  content: "\eb9a";
+}
+
 .mi-turned-in::before {
   content: "\e8e6";
 }
@@ -7905,6 +8013,14 @@
 
 .mi-two-wheeler::before {
   content: "\e9f9";
+}
+
+.mi-u-turn-left::before {
+  content: "\eba1";
+}
+
+.mi-u-turn-right::before {
+  content: "\eba2";
 }
 
 .mi-umbrella::before {
@@ -8221,6 +8337,10 @@
 
 .mi-wallpaper::before {
   content: "\e1bc";
+}
+
+.mi-warehouse::before {
+  content: "\ebb8";
 }
 
 .mi-warning::before {
