@@ -1335,6 +1335,10 @@
   content: "\e3ad";
 }
 
+.mi-browse-gallery::before {
+  content: "\ebd1";
+}
+
 .mi-browser-not-supported::before {
   content: "\ef47";
 }
@@ -1405,6 +1409,10 @@
 
 .mi-calculate::before {
   content: "\ea5f";
+}
+
+.mi-calendar-month::before {
+  content: "\ebcc";
 }
 
 .mi-calendar-today::before {
@@ -2051,6 +2059,10 @@
   content: "\eb93";
 }
 
+.mi-currency-bitcoin::before {
+  content: "\ebc5";
+}
+
 .mi-currency-exchange::before {
   content: "\eb70";
 }
@@ -2361,6 +2373,10 @@
 
 .mi-discord::before {
   content: "\ea6c";
+}
+
+.mi-discount::before {
+  content: "\ebc9";
 }
 
 .mi-display-settings::before {
@@ -3235,6 +3251,10 @@
   content: "\e2c7";
 }
 
+.mi-folder-copy::before {
+  content: "\ebbd";
+}
+
 .mi-folder-delete::before {
   content: "\eb34";
 }
@@ -3613,6 +3633,10 @@
 
 .mi-hail::before {
   content: "\e9b1";
+}
+
+.mi-handshake::before {
+  content: "\ebcb";
 }
 
 .mi-handyman::before {
@@ -5079,6 +5103,10 @@
   content: "\e61a";
 }
 
+.mi-network-ping::before {
+  content: "\ebca";
+}
+
 .mi-network-wifi::before {
   content: "\e1ba";
 }
@@ -5357,6 +5385,10 @@
 
 .mi-outlined-flag::before {
   content: "\e16e";
+}
+
+.mi-output::before {
+  content: "\ebbe";
 }
 
 .mi-padding::before {
@@ -6339,6 +6371,10 @@
   content: "\eb9b";
 }
 
+.mi-roller-skating::before {
+  content: "\ebcd";
+}
+
 .mi-roofing::before {
   content: "\f201";
 }
@@ -6503,6 +6539,10 @@
   content: "\e269";
 }
 
+.mi-scoreboard::before {
+  content: "\ebd0";
+}
+
 .mi-screen-lock-landscape::before {
   content: "\e1be";
 }
@@ -6529,6 +6569,10 @@
 
 .mi-screenshot::before {
   content: "\f056";
+}
+
+.mi-scuba-diving::before {
+  content: "\ebce";
 }
 
 .mi-sd::before {
@@ -7215,6 +7259,10 @@
   content: "\ea2a";
 }
 
+.mi-sports-gymnastics::before {
+  content: "\ebc4";
+}
+
 .mi-sports-handball::before {
   content: "\ea33";
 }
@@ -7847,6 +7895,10 @@
   content: "\e79a";
 }
 
+.mi-tire-repair::before {
+  content: "\ebc8";
+}
+
 .mi-title::before {
   content: "\e264";
 }
@@ -8085,6 +8137,14 @@
 
 .mi-vaccines::before {
   content: "\e138";
+}
+
+.mi-vape-free::before {
+  content: "\ebc6";
+}
+
+.mi-vaping-rooms::before {
+  content: "\ebcf";
 }
 
 .mi-verified::before {
