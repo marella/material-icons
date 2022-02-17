@@ -939,6 +939,10 @@
   content: "\e4fb";
 }
 
+.mi-auto-mode::before {
+  content: "\ec20";
+}
+
 .mi-auto-stories::before {
   content: "\e666";
 }
@@ -1161,6 +1165,14 @@
 
 .mi-blender::before {
   content: "\efe3";
+}
+
+.mi-blinds::before {
+  content: "\e286";
+}
+
+.mi-blinds-closed::before {
+  content: "\ec1f";
 }
 
 .mi-block::before {
@@ -2131,6 +2143,14 @@
   content: "\eaf9";
 }
 
+.mi-curtains::before {
+  content: "\ec1e";
+}
+
+.mi-curtains-closed::before {
+  content: "\ec1d";
+}
+
 .mi-cut::before {
   content: "\f08b";
 }
@@ -2715,8 +2735,16 @@
   content: "\eb1b";
 }
 
+.mi-electric-bolt::before {
+  content: "\ec1c";
+}
+
 .mi-electric-car::before {
   content: "\eb1c";
+}
+
+.mi-electric-meter::before {
+  content: "\ec1b";
 }
 
 .mi-electric-moped::before {
@@ -2789,6 +2817,10 @@
 
 .mi-emoji-transportation::before {
   content: "\ea1f";
+}
+
+.mi-energy-savings-leaf::before {
+  content: "\ec1a";
 }
 
 .mi-engineering::before {
@@ -3543,6 +3575,10 @@
   content: "\f011";
 }
 
+.mi-gas-meter::before {
+  content: "\ec19";
+}
+
 .mi-gavel::before {
   content: "\e90e";
 }
@@ -3785,6 +3821,10 @@
 
 .mi-heart-broken::before {
   content: "\eac2";
+}
+
+.mi-heat-pump::before {
+  content: "\ec18";
 }
 
 .mi-height::before {
@@ -4711,8 +4751,16 @@
   content: "\ea61";
 }
 
+.mi-lyrics::before {
+  content: "\ec0b";
+}
+
 .mi-mail::before {
   content: "\e158";
+}
+
+.mi-mail-lock::before {
+  content: "\ec0a";
 }
 
 .mi-mail-outline::before {
@@ -4943,6 +4991,10 @@
   content: "\f035";
 }
 
+.mi-mode-fan-off::before {
+  content: "\ec17";
+}
+
 .mi-mode-night::before {
   content: "\f036";
 }
@@ -5165,6 +5217,10 @@
 
 .mi-nearby-off::before {
   content: "\f03c";
+}
+
+.mi-nest-cam-wired-stand::before {
+  content: "\ec16";
 }
 
 .mi-network-cell::before {
@@ -5421,6 +5477,10 @@
 
 .mi-offline-share::before {
   content: "\e9c5";
+}
+
+.mi-oil-barrel::before {
+  content: "\ec15";
 }
 
 .mi-on-device-training::before {
@@ -6119,6 +6179,14 @@
   content: "\e1d1";
 }
 
+.mi-propane::before {
+  content: "\ec14";
+}
+
+.mi-propane-tank::before {
+  content: "\ec13";
+}
+
 .mi-psychology::before {
   content: "\ea4a";
 }
@@ -6479,6 +6547,14 @@
   content: "\eb9b";
 }
 
+.mi-roller-shades::before {
+  content: "\ec12";
+}
+
+.mi-roller-shades-closed::before {
+  content: "\ec11";
+}
+
 .mi-roller-skating::before {
   content: "\ebcd";
 }
@@ -6687,6 +6763,10 @@
   content: "\f056";
 }
 
+.mi-screenshot-monitor::before {
+  content: "\ec08";
+}
+
 .mi-scuba-diving::before {
   content: "\ebce";
 }
@@ -6765,6 +6845,10 @@
 
 .mi-sensor-door::before {
   content: "\f1b5";
+}
+
+.mi-sensor-occupied::before {
+  content: "\ec10";
 }
 
 .mi-sensor-window::before {
@@ -7277,6 +7361,10 @@
 
 .mi-social-distance::before {
   content: "\e1cb";
+}
+
+.mi-solar-power::before {
+  content: "\ec0f";
 }
 
 .mi-sort::before {
@@ -8087,6 +8175,10 @@
   content: "\f1c8";
 }
 
+.mi-tornado::before {
+  content: "\e199";
+}
+
 .mi-touch-app::before {
   content: "\e913";
 }
@@ -8157,6 +8249,10 @@
 
 .mi-trip-origin::before {
   content: "\e57b";
+}
+
+.mi-troubleshoot::before {
+  content: "\e1d2";
 }
 
 .mi-try::before {
@@ -8325,6 +8421,14 @@
 
 .mi-vertical-distribute::before {
   content: "\e076";
+}
+
+.mi-vertical-shades::before {
+  content: "\ec0e";
+}
+
+.mi-vertical-shades-closed::before {
+  content: "\ec0d";
 }
 
 .mi-vertical-split::before {
@@ -8767,6 +8871,10 @@
   content: "\f087";
 }
 
+.mi-wind-power::before {
+  content: "\ec0c";
+}
+
 .mi-window::before {
   content: "\f088";
 }
@@ -8789,6 +8897,10 @@
 
 .mi-work::before {
   content: "\e8f9";
+}
+
+.mi-work-history::before {
+  content: "\ec09";
 }
 
 .mi-work-off::before {
