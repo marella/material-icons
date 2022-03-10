@@ -147,6 +147,10 @@
   content: "\e959";
 }
 
+.mi-18-up-rating::before {
+  content: "\f8fd";
+}
+
 .mi-18mp::before {
   content: "\e95a";
 }
@@ -1371,6 +1375,14 @@
   content: "\e1ae";
 }
 
+.mi-broadcast-on-home::before {
+  content: "\f8f8";
+}
+
+.mi-broadcast-on-personal::before {
+  content: "\f8f9";
+}
+
 .mi-broken-image::before {
   content: "\e3ad";
 }
@@ -2265,6 +2277,10 @@
 
 .mi-design-services::before {
   content: "\f10a";
+}
+
+.mi-desk::before {
+  content: "\f8f4";
 }
 
 .mi-desktop-access-disabled::before {
@@ -4675,6 +4691,10 @@
   content: "\e899";
 }
 
+.mi-lock-person::before {
+  content: "\f8f3";
+}
+
 .mi-lock-reset::before {
   content: "\eade";
 }
@@ -5301,6 +5321,10 @@
 
 .mi-no-accounts::before {
   content: "\f03e";
+}
+
+.mi-no-adult-content::before {
+  content: "\f8fe";
 }
 
 .mi-no-backpack::before {
@@ -8647,6 +8671,10 @@
   content: "\f082";
 }
 
+.mi-wallet::before {
+  content: "\f8ff";
+}
+
 .mi-wallet-giftcard::before {
   content: "\e8f6";
 }
@@ -8801,6 +8829,18 @@
 
 .mi-widgets::before {
   content: "\e1bd";
+}
+
+.mi-width-full::before {
+  content: "\f8f5";
+}
+
+.mi-width-normal::before {
+  content: "\f8f6";
+}
+
+.mi-width-wide::before {
+  content: "\f8f7";
 }
 
 .mi-wifi::before {
