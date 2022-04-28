@@ -447,6 +447,14 @@
   content: "\e266";
 }
 
+.mi-add-home::before {
+  content: "\f8eb";
+}
+
+.mi-add-home-work::before {
+  content: "\f8ed";
+}
+
 .mi-add-ic-call::before {
   content: "\e97c";
 }
@@ -803,6 +811,10 @@
   content: "\e5de";
 }
 
+.mi-arrow-outward::before {
+  content: "\f8ce";
+}
+
 .mi-arrow-right::before {
   content: "\e5df";
 }
@@ -853,6 +865,10 @@
 
 .mi-assignment-turned-in::before {
   content: "\e862";
+}
+
+.mi-assist-walker::before {
+  content: "\f8d5";
 }
 
 .mi-assistant::before {
@@ -1169,6 +1185,10 @@
 
 .mi-blender::before {
   content: "\efe3";
+}
+
+.mi-blind::before {
+  content: "\f8d6";
 }
 
 .mi-blinds::before {
@@ -1939,6 +1959,10 @@
   content: "\ea3c";
 }
 
+.mi-contact-emergency::before {
+  content: "\f8d1";
+}
+
 .mi-contact-mail::before {
   content: "\e0d0";
 }
@@ -2215,6 +2239,14 @@
   content: "\e1af";
 }
 
+.mi-dataset::before {
+  content: "\f8ee";
+}
+
+.mi-dataset-linked::before {
+  content: "\f8ef";
+}
+
 .mi-date-range::before {
   content: "\e916";
 }
@@ -2461,6 +2493,18 @@
 
 .mi-display-settings::before {
   content: "\eb97";
+}
+
+.mi-diversity-1::before {
+  content: "\f8d7";
+}
+
+.mi-diversity-2::before {
+  content: "\f8d8";
+}
+
+.mi-diversity-3::before {
+  content: "\f8d9";
 }
 
 .mi-dnd-forwardslash::before {
@@ -2983,6 +3027,26 @@
   content: "\e87c";
 }
 
+.mi-face-2::before {
+  content: "\f8da";
+}
+
+.mi-face-3::before {
+  content: "\f8db";
+}
+
+.mi-face-4::before {
+  content: "\f8dc";
+}
+
+.mi-face-5::before {
+  content: "\f8dd";
+}
+
+.mi-face-6::before {
+  content: "\f8de";
+}
+
 .mi-face-retouching-natural::before {
   content: "\ef4e";
 }
@@ -3229,6 +3293,14 @@
 
 .mi-fire-hydrant::before {
   content: "\f1a3";
+}
+
+.mi-fire-hydrant-alt::before {
+  content: "\f8f1";
+}
+
+.mi-fire-truck::before {
+  content: "\f8f2";
 }
 
 .mi-fireplace::before {
@@ -3729,6 +3801,14 @@
 
 .mi-groups::before {
   content: "\f233";
+}
+
+.mi-groups-2::before {
+  content: "\f8df";
+}
+
+.mi-groups-3::before {
+  content: "\f8e0";
 }
 
 .mi-h-mobiledata::before {
@@ -4775,6 +4855,10 @@
   content: "\ec0b";
 }
 
+.mi-macro-off::before {
+  content: "\f8d2";
+}
+
 .mi-mail::before {
   content: "\e158";
 }
@@ -4793,6 +4877,18 @@
 
 .mi-man::before {
   content: "\e4eb";
+}
+
+.mi-man-2::before {
+  content: "\f8e1";
+}
+
+.mi-man-3::before {
+  content: "\f8e2";
+}
+
+.mi-man-4::before {
+  content: "\f8e3";
 }
 
 .mi-manage-accounts::before {
@@ -5783,6 +5879,18 @@
   content: "\e7fd";
 }
 
+.mi-person-2::before {
+  content: "\f8e4";
+}
+
+.mi-person-3::before {
+  content: "\f8e5";
+}
+
+.mi-person-4::before {
+  content: "\f8e6";
+}
+
 .mi-person-add::before {
   content: "\e7fe";
 }
@@ -6215,6 +6323,10 @@
   content: "\ea4a";
 }
 
+.mi-psychology-alt::before {
+  content: "\f8ea";
+}
+
 .mi-public::before {
   content: "\e80b";
 }
@@ -6453,6 +6565,10 @@
 
 .mi-reorder::before {
   content: "\e8fe";
+}
+
+.mi-repartition::before {
+  content: "\f8e8";
 }
 
 .mi-repeat::before {
@@ -7001,6 +7117,10 @@
 
 .mi-severe-cold::before {
   content: "\ebd3";
+}
+
+.mi-shape-line::before {
+  content: "\f8d3";
 }
 
 .mi-share::before {
@@ -8231,6 +8351,10 @@
   content: "\e571";
 }
 
+.mi-transcribe::before {
+  content: "\f8ec";
+}
+
 .mi-transfer-within-a-station::before {
   content: "\e572";
 }
@@ -8343,6 +8467,10 @@
   content: "\e9f9";
 }
 
+.mi-type-specimen::before {
+  content: "\f8f0";
+}
+
 .mi-u-turn-left::before {
   content: "\eba1";
 }
@@ -8367,8 +8495,16 @@
   content: "\e5d6";
 }
 
+.mi-unfold-less-double::before {
+  content: "\f8cf";
+}
+
 .mi-unfold-more::before {
   content: "\e5d7";
+}
+
+.mi-unfold-more-double::before {
+  content: "\f8d0";
 }
 
 .mi-unpublished::before {
@@ -8925,6 +9061,10 @@
 
 .mi-woman::before {
   content: "\e13e";
+}
+
+.mi-woman-2::before {
+  content: "\f8e7";
 }
 
 .mi-woo-commerce::before {
