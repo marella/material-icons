@@ -4,6 +4,8 @@ Latest icon fonts and CSS for self-hosting material design icons.
 
 > This package is automatically updated, so it will always have the latest icons from Google.
 
+> For Material Symbols, see [`material-symbols`](https://www.npmjs.com/package/material-symbols)
+>
 > For SVGs, see [`@material-design-icons/svg`](https://www.npmjs.com/package/@material-design-icons/svg)
 
 - [Installation](#installation)

@@ -2,7 +2,7 @@
 
 Alternatively, you may use CSS classes instead of ligatures to display icons.
 
-> **Note:** This method is not recommended as it requires an additional large CSS file.
+> **Note:** This method is not recommended as it requires importing a large CSS file. The files mentioned in the [main README](https://github.com/marella/material-icons#usage) should also be imported in addition to below files.
 
 Import in JS (example: `src/index.js` in Create React App, `src/main.js` in Vue CLI):
 
