@@ -5,6 +5,7 @@
   "browser": "iconfont/material-icons.css",
   "sass": "iconfont/material-icons.scss",
   "files": [
+    "_data/versions.json",
     "css/*.{css,scss}",
     "iconfont/*.{css,scss,woff,woff2}"
   ],
