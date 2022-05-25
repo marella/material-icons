@@ -3404,7 +3404,11 @@
 }
 
 .mi-flourescent::before {
-  content: "\f00d";
+  content: "\ec31";
+}
+
+.mi-fluorescent::before {
+  content: "\ec31";
 }
 
 .mi-flutter-dash::before {
