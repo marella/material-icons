@@ -8615,6 +8615,10 @@
   content: "\f080";
 }
 
+.mi-video-chat::before {
+  content: "\f8a0";
+}
+
 .mi-video-collection::before {
   content: "\e04a";
 }
