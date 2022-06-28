@@ -2747,6 +2747,10 @@
   content: "\e742";
 }
 
+.mi-edit-document::before {
+  content: "\f88c";
+}
+
 .mi-edit-location::before {
   content: "\e568";
 }
@@ -2769,6 +2773,10 @@
 
 .mi-edit-road::before {
   content: "\ef4d";
+}
+
+.mi-edit-square::before {
+  content: "\f88d";
 }
 
 .mi-egg::before {
@@ -3177,6 +3185,10 @@
 
 .mi-file-upload::before {
   content: "\e2c6";
+}
+
+.mi-file-upload-off::before {
+  content: "\f886";
 }
 
 .mi-filter::before {
