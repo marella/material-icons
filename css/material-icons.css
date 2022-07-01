@@ -2367,6 +2367,10 @@
   content: "\e337";
 }
 
+.mi-dew-point::before {
+  content: "\f879";
+}
+
 .mi-dialer-sip::before {
   content: "\e0bb";
 }
