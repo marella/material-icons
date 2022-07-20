@@ -1027,6 +1027,10 @@
   content: "\e26b";
 }
 
+.mi-barcode-reader::before {
+  content: "\f85c";
+}
+
 .mi-batch-prediction::before {
   content: "\f0f5";
 }
@@ -2025,6 +2029,10 @@
 
 .mi-control-point-duplicate::before {
   content: "\e3bb";
+}
+
+.mi-conveyor-belt::before {
+  content: "\f867";
 }
 
 .mi-cookie::before {
@@ -3503,6 +3511,10 @@
   content: "\ebac";
 }
 
+.mi-forklift::before {
+  content: "\f868";
+}
+
 .mi-format-align-center::before {
   content: "\e234";
 }
@@ -3649,6 +3661,10 @@
 
 .mi-front-hand::before {
   content: "\e769";
+}
+
+.mi-front-loader::before {
+  content: "\f869";
 }
 
 .mi-fullscreen::before {
@@ -5715,6 +5731,10 @@
   content: "\e40a";
 }
 
+.mi-pallet::before {
+  content: "\f86a";
+}
+
 .mi-pan-tool::before {
   content: "\e925";
 }
@@ -7155,6 +7175,10 @@
   content: "\f05f";
 }
 
+.mi-shelves::before {
+  content: "\f86e";
+}
+
 .mi-shield::before {
   content: "\e9e0";
 }
@@ -8417,6 +8441,10 @@
 
 .mi-trip-origin::before {
   content: "\e57b";
+}
+
+.mi-trolley::before {
+  content: "\f86b";
 }
 
 .mi-troubleshoot::before {
