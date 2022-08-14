@@ -847,6 +847,10 @@
   content: "\e85d";
 }
 
+.mi-assignment-add::before {
+  content: "\f848";
+}
+
 .mi-assignment-ind::before {
   content: "\e85e";
 }
@@ -3569,6 +3573,10 @@
 
 .mi-format-list-bulleted::before {
   content: "\e241";
+}
+
+.mi-format-list-bulleted-add::before {
+  content: "\f849";
 }
 
 .mi-format-list-numbered::before {
@@ -6515,6 +6523,10 @@
   content: "\e73a";
 }
 
+.mi-rebase-edit::before {
+  content: "\f846";
+}
+
 .mi-receipt::before {
   content: "\e8b0";
 }
@@ -8997,10 +9009,6 @@
 
 .mi-west::before {
   content: "\f1e6";
-}
-
-.mi-whatsapp::before {
-  content: "\ea9c";
 }
 
 .mi-whatshot::before {
