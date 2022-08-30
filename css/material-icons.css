@@ -5283,6 +5283,10 @@
   content: "\e404";
 }
 
+.mi-movie-edit::before {
+  content: "\f840";
+}
+
 .mi-movie-filter::before {
   content: "\e43a";
 }
