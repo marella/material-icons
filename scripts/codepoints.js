@@ -51,6 +51,7 @@ const processFont = (file, codepoints) => {
             const ligature = [prefixes[i], ...components]
               .map((v) => String.fromCharCode(glyphToCodepoints[v]))
               .join('')
+              .toLowerCase()
             const codepoint = glyphToCodepoints[ligGlyph]
             codepoints[ligature] = codepoint.toString(16)
           })
