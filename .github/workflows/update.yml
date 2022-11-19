@@ -11,6 +11,13 @@ on:
       dry:
         description: Dry Run
         default: '1'
+      bump:
+        type: choice
+        description: Bump Version
+        options:
+          - patch
+          - minor
+          - major
 
 jobs:
   update:
@@ -28,7 +35,10 @@ jobs:
         run: |
           force="${{ github.event.inputs.force }}"
           dry="${{ github.event.inputs.dry }}"
-          bump="patch"
+          bump="${{ github.event.inputs.bump }}"
+          if [ "$bump" = "" ]; then
+            bump="patch"
+          fi
 
           # Check for Updates
           status=0
