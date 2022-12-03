@@ -54,7 +54,8 @@ jobs:
 
           # Update
           npm run update
-          git commit -am 'Auto Update' || [ "$force" = "1" ] || exit 1
+          git add --all
+          git commit -m 'Auto Update' || [ "$force" = "1" ] || exit 1
 
           # Bump Version
           npm version "$bump"
