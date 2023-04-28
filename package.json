@@ -1,6 +1,6 @@
 {
   "name": "material-icons",
-  "version": "1.13.5",
+  "version": "1.13.6",
   "description": "Latest icon fonts and CSS for self-hosting material design icons.",
   "browser": "iconfont/material-icons.css",
   "sass": "iconfont/material-icons.scss",
